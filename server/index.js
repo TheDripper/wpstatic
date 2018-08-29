@@ -10,7 +10,6 @@ const fs = require('fs');
 const path = require('path');
 const urls = require('get-urls');
 const strip = require('striptags');
-const cheerio = require('cheerio');
 const nospec = function(string) {
 	return string.replace(/[<>'"();]/gi, '');
 }
@@ -68,11 +67,9 @@ async function start() {
 	  }
 	  //reqhost = url.parse('http://'+req.params.page+'/').hostname
 	  fs.writeFileSync('deps.txt',JSON.stringify(deps))
-	  const $ = cheerio.load(data)
 	  //$('html').find('script').each(function(){
 	  //	$(this).remove()
 	  //});
-	  data = $('html').html()
 	  //let matches = data.match(/\bhttps?:\/\/\S+/gi)
 	  //let clean = await getFiles(data,'all')
 	  console.log('clean')
