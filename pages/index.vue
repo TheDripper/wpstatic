@@ -44,42 +44,10 @@ export default {
 			//context.store.commit('loadScripts',sets.js)
 			//console.log("TODAY")
 			//let page = context.params.page;
-
-			
+			console.log('hit it');
 			let page = document.querySelector('#site').value;
 			let { data } = await axios.post('/scrape',{page:page});
 			console.log(data);
-
-
-			//try {
-			//	let page = document.querySelector('#site').value;
-			//	let { data } = await axios.get('http://'+page);
-			//	const $ = cheerio.load(data)
-			//	$('html').find('script').each(function(){
-			//		$(this).remove()
-			//	});
-			//	data = $('body').html()
-			//	let matches = data.match(/\bhttps?:\/\/\S+/gi)
-			//	let clean = await getFiles(data,'all')
-			//	console.log('clean')
-			//	clean.forEach(async url=>{
-			//		url = prep(url).split('?')[0]
-			//		let ext = path.extname(url)
-			//		let imgMime = ['.jpg','.png','.gif','.svg']
-			//		if(imgMime.includes(ext)) {
-			//			let parsed = path.parse(url)
-			//			data = data.replace(parsed.dir+'/'+parsed.base,parsed.base)
-			//		} else if (ext=='.js') {
-			//			let parsed = path.parse(url)
-			//			data = data.replace(url,'')
-			//		}
-			//	})
-			//	//context.store.commit('mark',data)
-			//	fs.writeFileSync('test.html',data);
-			//} catch(err) {
-			//	console.log('page');
-			//	console.log(page);
-			//}
 		}
 	}
 }

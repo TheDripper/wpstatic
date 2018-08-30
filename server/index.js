@@ -25,6 +25,38 @@ app.set('port', port)
 let config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
 
+async function press(mark) {
+	try {
+		console.log('fetching asset srcs...')
+		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
+		let clean = []
+		for (const dirty of urls(mark)) {
+			let url = prep(dirty).split('?')[0]
+			let ext = path.extname(url)
+			if(mime.includes(ext) && !url.includes('typekit')) {
+		      		let { data } = await axios.get(url,{responseType:"arraybuffer"})
+				let name = path.basename(url)
+				let parsed = path.parse(url)
+				if(name.includes('slick')) {
+					url = url.replace('http:','')
+				}
+				//let fix = url.replace(parsed.dir+'/'+parsed.base,'./static/'+parsed.base)
+			      	//clean.push({dirty:url,clean:fix})
+				mark = mark.replace(url,'./static/'+parsed.base)
+				fs.writeFile('static/'+name,data,function(err){
+				        if(err)
+						console.log(err)
+				})
+			}
+		}
+		return mark
+	  } catch(err) {
+	  	console.log('server');
+	  	console.log(err);
+	  }
+}
+
+
 async function start() {
   // Init Nuxt.js
   const nuxt = new Nuxt(config)
@@ -38,64 +70,11 @@ async function start() {
   // Give nuxt middleware to express
   app.post('/scrape/',async function(req,res,next){
 	  let page = req.body.page
-	  try {
-	  let { data } = await axios('http://'+page);
-	  let clean = []
-	  let mime = ['.png','.jpg','.gif','.svg','.css','.js']
-	  urls(data).forEach(url=>{
-	  	url = prep(url).split('?')[0].replace('https','http')
-	  	let ext = path.extname(url)
-	  	if(mime.includes(ext)) {
-	  		clean.push(nospec(decodeURI(strip(url))))
-	  	}
-	  });
-	  let deps = []
-	  for (const url of clean) {
-	  	let ext = path.extname(url)
-	  	let { data } = await axios.get(url,{responseType:"arraybuffer"})
-	  	let name = path.basename(url)
-
-	  	let parsed = path.parse(url)
-	  	let fix = url.replace(parsed.dir+'/'+parsed.base,parsed.base)
-	  	if(ext=='.js')
-	  		deps.push({src: fix})
-	  	//deps.push({src: nospec(decodeURI(strip(url)))})
-	  	fs.writeFile('static/'+name,data,function(err){
-          	        if(err)
-          	      	  return log.write(err)
-          	})
-	  }
-	  //reqhost = url.parse('http://'+req.params.page+'/').hostname
-	  fs.writeFileSync('deps.txt',JSON.stringify(deps))
-	  //$('html').find('script').each(function(){
-	  //	$(this).remove()
-	  //});
-	  //let matches = data.match(/\bhttps?:\/\/\S+/gi)
-	  //let clean = await getFiles(data,'all')
-	  console.log('clean')
-	  clean.forEach(async url=>{
-	  	url = prep(url).split('?')[0]
-	  	let ext = path.extname(url)
-	  	let imgMime = ['.jpg','.png','.gif','.svg']
-	  	if(imgMime.includes(ext)) {
-	  		let parsed = path.parse(url)
-	  		data = data.replace(parsed.dir+'/'+parsed.base,parsed.base)
-	  	} else if (ext=='.js') {
-	  		let parsed = path.parse(url)
-	  		//data = data.replace(url,'')
-	  	}
-	  })
-	  //context.store.commit('mark',data)
-	  fs.writeFileSync('test.html',data);
-	  res.send(data);
-
-
-
-
-	  } catch(err) {
-	  	console.log('server');
-	  	console.log(err);
-	  }
+	  let { data } = await axios.get('http://'+page)
+	  let mark = await press(data)
+	  fs.writeFileSync('test.html',mark);
+	  res.send('done');
+	  
   });
   app.use(nuxt.render)
 
