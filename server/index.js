@@ -1,4 +1,3 @@
-
 const express = require('express')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
@@ -42,7 +41,7 @@ async function press(mark) {
 				}
 				//let fix = url.replace(parsed.dir+'/'+parsed.base,'./static/'+parsed.base)
 			      	//clean.push({dirty:url,clean:fix})
-				mark = mark.replace(url,'./static/'+parsed.base)
+				mark = mark.replace(url,'../static/'+parsed.base)
 				fs.writeFile('static/'+name,data,function(err){
 				        if(err)
 						console.log(err)
@@ -72,7 +71,7 @@ async function start() {
 	  let page = req.body.page
 	  let { data } = await axios.get('http://'+page)
 	  let mark = await press(data)
-	  fs.writeFileSync('test.html',mark);
+	  fs.writeFileSync('scrapes/test.html',mark);
 	  res.send('done');
 	  
   });
