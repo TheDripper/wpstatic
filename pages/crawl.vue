@@ -28,7 +28,6 @@ function crawl(page) {
 export default {
 	async asyncData(context) {
 		let done = await crawl('http://food.berkeley.edu')
-		console.log(done)
 	}
 }
 </script>

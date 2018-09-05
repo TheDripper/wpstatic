@@ -12,3 +12,7 @@ dist
 
 # IDE
 .idea
+
+scrapes
+static
+

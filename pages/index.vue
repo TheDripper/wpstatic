@@ -35,19 +35,24 @@ const fixPath = function(url) {
 	let parsed = path.parse(url);
 	return url.replace(parsed.dir+'/'+parsed.base,parsed.base);
 }
+
 export default {
 	methods: {
 		press: async function() {
-			//let sets = await axios.get('http://localhost:3000/css');
-			//sets = sets.data;
-			//context.store.commit('loadStyles',sets.css)
-			//context.store.commit('loadScripts',sets.js)
-			//console.log("TODAY")
-			//let page = context.params.page;
-			console.log('hit it');
-			let page = document.querySelector('#site').value;
-			let { data } = await axios.post('/scrape',{page:page});
-			console.log(data);
+			console.log('hit it')
+			//let sites = [
+			//	'http://food.berkeley.edu',
+			//	'http://food.berkeley.edu/about-us'
+			//]
+			let page = document.querySelector('#site').value
+			let sites = await axios.post('/crawl',{page:page})
+			sites = sites.data
+			sites.forEach(page=>{
+				setTimeout(async function(){
+					let { data } = await axios.post('/scrape',{page:page});
+					console.log('scraped ' + page)
+				},500)
+			})
 		}
 	}
 }
