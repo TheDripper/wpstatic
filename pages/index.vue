@@ -47,6 +47,7 @@ export default {
 			let page = document.querySelector('#site').value
 			let sites = await axios.post('/crawl',{page:page})
 			sites = sites.data
+			sites.unshift(page)
 			sites.forEach(page=>{
 				setTimeout(async function(){
 					let { data } = await axios.post('/scrape',{page:page});

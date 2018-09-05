@@ -28,6 +28,9 @@ config.dev = !(process.env.NODE_ENV === 'production')
 async function press(mark) {
 	try {
 		console.log('fetching asset srcs...')
+		let appdir = path.dirname(require.main.filename)
+		appdir = appdir.substr(0,appdir.lastIndexOf('/'))
+		let statdir = appdir+"/static/" 
 		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
 		let clean = []
 		for (const dirty of urls(mark)) {
@@ -41,7 +44,7 @@ async function press(mark) {
 				if(name.includes('slick')) {
 					url = url.replace('http:','')
 				}
-				mark = mark.replace(url,'../static/'+parsed.base)
+				mark = mark.replace(url,statdir+parsed.base)
 				
 				fs.writeFile('static/'+name,data,function(err){
 				        if(err)
@@ -54,12 +57,12 @@ async function press(mark) {
 			let org = $(this).attr('href')
 			if(typeof org != 'undefined') {
 				let href = parseurl.parse($(this).attr('href')).path
-				let test = parseurl.parse($(this).attr('href'))
 				if(href!==null) {
 					href = href.replace(/^\/|\/$/g, '')
-					href = href + ".html"
+					href = appdir + '/scrapes/' + href + ".html"
 					let tag = $.html($(this))
 					let fix = tag.replace(org,href)
+					console.log(href)
 					mark = mark.replace(tag,fix)
 				}
 			}
@@ -114,6 +117,8 @@ async function start() {
 	  let parsed = parseurl.parse(page)
 	  let base = parsed.pathname
 	  base = base.slice(1,-1)
+	  if(!base)
+		  base='index'
 	  let thepath = 'scrapes/'+base+'.html'
 	  if(base=='/')
 		  base='index'
