@@ -28,9 +28,9 @@ config.dev = !(process.env.NODE_ENV === 'production')
 async function press(mark) {
 	try {
 		console.log('fetching asset srcs...')
-		let appdir = path.dirname(require.main.filename)
-		appdir = appdir.substr(0,appdir.lastIndexOf('/'))
-		let statdir = appdir+"/static/" 
+		let appdir = path.resolve(__dirname,'..')
+		let statdir = path.join(appdir,'static')
+		console.log(statdir)
 		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
 		let clean = []
 		for (const dirty of urls(mark)) {
@@ -44,7 +44,7 @@ async function press(mark) {
 				if(name.includes('slick')) {
 					url = url.replace('http:','')
 				}
-				mark = mark.replace(url,statdir+parsed.base)
+				mark = mark.replace(url,path.join(statdir,parsed.base))
 				
 				fs.writeFile('static/'+name,data,function(err){
 				        if(err)
