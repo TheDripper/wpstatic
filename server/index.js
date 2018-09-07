@@ -74,9 +74,12 @@ async function press(mark) {
 				})
 			}
 		})
-		$('[style*="image"]').each(async function(){
-			var reg = new RegExp("url((.*))")
-			let url = $(this).attr('style').match(reg)[1].slice(1,-2)
+		$('[style*="background"]').each(async function(){
+			//var reg = new RegExp("url("+"(.*)"+")")
+			//let url = $(this).attr('style').match(reg)[1].slice(1,-2)
+			let url = Array.from(urls($(this).attr('style')))[0]
+			url = nospec(url)
+			console.log(url)
 			let name = path.basename(url)
 			let newsrc = path.join(appdir,'static',name)
 			let regurl = new RegExp(url)
