@@ -61,6 +61,19 @@ async function press(mark) {
 				}
 			}
 		})
+		$('link').each(async function(){
+			let href = $(this).attr('href').split('?')[0]
+			let base = path.basename(href)
+			let newhref = path.join(appdir,'static',base)
+			$(this).attr('href',newhref)
+			if(path.parse(href).ext=='.css') {
+				let { data } = await axios.get(href)
+				fs.writeFile(path.join('static',base),data,function(err){
+					if(err)
+						console.log('err')
+				})
+			}
+		})
 		$('[style*="image"]').each(async function(){
 			var reg = new RegExp("url((.*))")
 			let url = $(this).attr('style').match(reg)[1].slice(1,-2)
@@ -68,14 +81,13 @@ async function press(mark) {
 			let newsrc = path.join(appdir,'static',name)
 			let regurl = new RegExp(url)
 			let style = $(this).attr('style')
-			$(this).attr('style',style.replace(regurl,newsrc))
-			console.log(newsrc)
+			let newstyle = style.replace(regurl,newsrc)
+			$(this).attr('style',newstyle)
 			try {
 				let { data } = await axios.get(url,{responseType:"arraybuffer"})
-				fs.writeFile(path.join('static',name),data,function(err){
+				fs.writeFile(path.join('static',name),data,'binary',function(err){
 					if(err)
 						console.log('err')
-					console.log('wrote '+name)
 				})
 			} catch(err) {
 				//console.log(err)
@@ -144,7 +156,6 @@ async function start() {
 	  let dir = path.parse(thepath).dir
 	  if(!fs.existsSync(dir))
 		  fs.mkdirSync(dir)
-	  console.log(dir)
 	  fs.writeFileSync(thepath,mark);
 	  res.send('done');
 	  

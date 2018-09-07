@@ -40,15 +40,10 @@ export default {
 	methods: {
 		press: async function() {
 			console.log('hit it')
-			//let sites = [
-			//	'http://food.berkeley.edu',
-			//	'http://food.berkeley.edu/about-us'
-			//]
 			let page = document.querySelector('#site').value
-			//let sites = await axios.post('/crawl',{page:page})
-			//sites = sites.data
-			//sites.unshift(page)
-			let sites = ['http://food.berkeley.edu/about-us/']
+			let sites = await axios.post('/crawl',{page:page})
+			sites = sites.data
+			sites.unshift(page)
 			sites.forEach(page=>{
 				console.log(page)
 				setTimeout(async function(){
