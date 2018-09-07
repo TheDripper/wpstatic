@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: #">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>About Us - Berkeley Food Institute</title>
+
+		<link rel="shortcut icon" href="" type="image/x-icon" />
+		<link rel="apple-touch-icon-precomposed" sizes="16x16" href="">
+		<link rel="apple-touch-icon-precomposed" sizes="32x32" href="">
+		<link rel="apple-touch-icon-precomposed" href="">
+
+										
+		<title>About Us - Berkeley Food Institute</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v8.1.2 - / -->
+<link rel="canonical" href="/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="About Us - Berkeley Food Institute" />
+<meta property="og:description" content="The Berkeley Food Institute seeks to transform food systems to expand access to healthy, affordable food and promote sustainable and equitable food production. We empower new leaders with capacities to cultivate diverse, just, resilient, and healthy food systems. &nbsp;" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Berkeley Food Institute" />
+<meta property="article:publisher" content="https://www.facebook.com/BerkeleyFood/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="The Berkeley Food Institute seeks to transform food systems to expand access to healthy, affordable food and promote sustainable and equitable food production. We empower new leaders with capacities to cultivate diverse, just, resilient, and healthy food systems. &nbsp;" />
+<meta name="twitter:title" content="About Us - Berkeley Food Institute" />
+<meta name="twitter:site" content="@UCBerkeleyFood" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:creator" content="@UCBerkeleyFood" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/food.berkeley.edu\/","sameAs":["https:\/\/www.facebook.com\/BerkeleyFood\/","https:\/\/www.instagram.com\/berkeleyfoodinstitute\/","https:\/\/www.linkedin.com\/company\/berkeley-food-institute\/","https:\/\/www.youtube.com\/channel\/UCCXP5uTDeEJMjZIkFb5jDaA","https:\/\/twitter.com\/UCBerkeleyFood"],"@id":"https:\/\/food.berkeley.edu\/#organization","name":"Berkeley Food Institute","logo":"https:\/\/food.berkeley.edu\/wp-content\/uploads\/2018\/07\/BFI_alt-logo_CMYK_small.jpg"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/food.berkeley.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-pagenavi-css'  href='/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='cc-style-css'  href='/wp-content/themes/ccprototypev5/css/cc-style.css?v=1.0.0&#038;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css-css'  href='//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css?ver=1.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='landing-css'  href='/wp-content/themes/ccprototypev5/css/lp.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-shortcode-general_foundicons-css'  href='/wp-content/plugins/buttons-shortcode-and-widget/include/otw_components/otw_shortcode/css/general_foundicons.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-shortcode-social_foundicons-css'  href='/wp-content/plugins/buttons-shortcode-and-widget/include/otw_components/otw_shortcode/css/social_foundicons.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-shortcode-css'  href='/wp-content/plugins/buttons-shortcode-and-widget/include/otw_components/otw_shortcode/css/otw_shortcode.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/type.js?ver=4.9.8'></script>
+<script type='text/javascript' src='//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js?ver=4.9.8'></script>
+<link rel='' href='' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="" /> 
+<link rel='shortlink' href='/?p=1766' />
+<link rel="alternate" type="application/json+oembed" href="oembed/1.0/embed?url=https%3A%2F%2Ffood.berkeley.edu%2Fabout-us%2F" />
+<link rel="alternate" type="text/xml+oembed" href="oembed/1.0/embed?url=https%3A%2F%2Ffood.berkeley.edu%2Fabout-us%2F&#038;format=xml" />
+<link rel="icon" href="" sizes="32x32" />
+<link rel="icon" href="" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="" />
+<meta name="msapplication-TileImage" content="" />
+		<script src="//rawgit.com/ngryman/jquery.finger/v0.1.2/dist/jquery.finger.js"></script>
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48999689-1', 'berkeleyfoodinstitute.org');
+  ga('send', 'pageview');
+
+</script>
+<script src=""></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	</head>
+
+	<body class="page-template page-template-template-redux page-template-template-redux-php page page-id-1766 page-parent page-about-us">
+		<div id="page">
+
+		<div id="accessibilitymenu" role="navigation">
+			<div class="container">
+				<ul>
+
+					<li id="skip-to-content">Skip to Content</li>
+		            
+		            <li>
+		            Text Size:
+		            <span class="letter" data-letter="normal">A</span>
+		            <span class="letter bigger" data-letter="bigger">A</span>
+		            <span class="letter biggest" data-letter="biggest">A</span>
+
+
+		            </li>
+		            
+		            <li>
+		            Contrast:
+		            <span class="contrast" data-contrast="normal">C</span>
+		            <span class="contrast high" data-contrast="high">C</span>
+
+		            </li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div id="topmenu" class="container">
+			<a id="logo"  href="" class=>
+	        <img alt="Berkeley Food Institute UC Berkeley" src="/wp-content/themes/ccprototypev5/images/BFI_with_UC.png"/>
+	        </a>
+
+			<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-6318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="/resources/just-food-podcast/">Podcast</a></li>
+<li id="menu-item-6319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="">Events</a></li>
+<li id="menu-item-2218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-6601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="/press/">Press</a></li>
+<li id="menu-item-8289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="/search/">d</a></li>
+</ul></div>		</div>
+
+			<header id="header" role="banner">
+				<div class="container">
+					<div class="row">
+						<nav role="navigation" aria-label="Main Menu" class="col-xs-12">
+							<div class="hamburger hidden-xl-up clearfix">
+								<div class="top bar"></div>
+								<div class="middle bar"></div>
+								<div class="bottom bar"></div>
+							</div>
+							<div id="main-menu" class="menu-menu-2016-container"><ul id="menu-menu-2016" class="menu"><li id="menu-item-6565" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1766 current_page_item menu-item-has-children menu-item-6565"><a href="/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/team/">Team</a></li>
+	<li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="/our-story/">Our Story</a></li>
+	<li id="menu-item-2197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2197"><a href="/centers/">Centers</a></li>
+	<li id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2293"><a href="/affiliates/">Affiliates</a></li>
+	<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="/executive-committee/">Executive Committee</a></li>
+	<li id="menu-item-7607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7607"><a href="/advisory-council/">Advisory Council</a></li>
+	<li id="menu-item-2133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2133"><a href="/student-fellows/">Student Fellows</a></li>
+	<li id="menu-item-2278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="/partner-schools/">Partner Schools</a></li>
+	<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2275"><a href="/supporters/">Supporters</a></li>
+	<li id="menu-item-2277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><a href="/annual-reports/">Annual Reports</a></li>
+</ul>
+</li>
+<li id="menu-item-6321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="/priorities/">Priorities</a>
+<ul class="sub-menu">
+	<li id="menu-item-6322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6322"><a href="/priorities/agroecology/">Urban and Rural Agroecology</a></li>
+	<li id="menu-item-6323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6323"><a href="/priorities/fair-healthy-jobs/">Fair and Healthy Jobs</a></li>
+	<li id="menu-item-6324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6324"><a href="/priorities/good-food-access/">Good Food Access</a></li>
+</ul>
+</li>
+<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="/programs/">Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-6521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6521"><a href="/programs/community-engagement-edu/">Community Engagement and Education</a></li>
+	<li id="menu-item-1800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1800"><a href="/programs/policy/">Policy</a></li>
+	<li id="menu-item-2176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176"><a href="/programs/research/">Research</a></li>
+</ul>
+</li>
+<li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-8275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8275"><a href="/resources/changemakers/">Changemakers: Hungry for Change</a></li>
+	<li id="menu-item-5044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5044"><a href="/resources/just-food-podcast/">Just Food Podcast</a></li>
+	<li id="menu-item-5204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5204"><a href="/resources/news/">News</a></li>
+	<li id="menu-item-5205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5205"><a href="https://bfi2016.wpengine.com/resources/news/?filter=bfi-in-the-media">BFI in the Media</a></li>
+	<li id="menu-item-5206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5206"><a href="https://bfi2016.wpengine.com/resources/news/?filter=from-the-field">From the Field</a></li>
+	<li id="menu-item-6329" class="menu-item menu-item-type-post_type menu-item-object-map_page menu-item-6329"><a href="/foodscape/map/">UC Berkeley Foodscape Map</a></li>
+	<li id="menu-item-6330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6330"><a href="/resources/food-at-berkeley/">Food@Berkeley</a></li>
+	<li id="menu-item-6331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6331"><a href="/resources/the-potluck/">The Berkeley Potluck</a></li>
+	<li id="menu-item-6332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6332"><a href="/resources/mark-bittman-california-matters/">Mark Bittman: California Matters</a></li>
+	<li id="menu-item-2109" class="menu-item menu-item-type-post_type_archive menu-item-object-resource menu-item-2109"><a href="/research-database/">Research Database</a></li>
+</ul>
+</li>
+<li id="menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="/for-students/">For Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="/for-students/jobs-resources/">Jobs and Resources</a></li>
+	<li id="menu-item-6325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6325"><a href="/for-students/funding-student-run-events/">Funding for Student-run Events</a></li>
+	<li id="menu-item-6326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6326"><a href="/resources/food-at-berkeley/">Food@Berkeley</a></li>
+	<li id="menu-item-3880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3880"><a href="/for-students/food-courses/">Food Courses</a></li>
+	<li id="menu-item-3568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3568"><a href="/programs/community-engagement-edu/food-systems-minor/">Food Systems Minor</a></li>
+	<li id="menu-item-6327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6327"><a href="/programs/community-engagement-edu/graduate-certificate-food-systems/">Graduate Certificate in Food Systems</a></li>
+	<li id="menu-item-6328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6328"><a href="/for-students/student-groups/">Student Groups</a></li>
+	<li id="menu-item-2320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2320"><a href="/for-students/basic-needs-security/">Basic Needs Security</a></li>
+</ul>
+</li>
+</ul></div>						</nav>
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</header>
+			<main id="main" role="main">
+<div class="row header" style=background-image:url();>
+<div class="toggle"></div><figcaption class="wp-caption-text">Claire Kremen at BFI Inaugural Symposium in 2013. Photo by Kara Brodgesell</figcaption></div>
+<div class="container begin">
+	<div class="breadcrumbs" role="navigation" aria-label="Page Breadcrumb Navigation">
+		<a href="">Home </a><a href="/">About Us</a>	</div>
+	<header>
+		<h1 class="entry-title" itemprop="name headline">About Us</h1>
+	</header>
+	<div class=flexframe>
+		<div class=ccblx>
+			<div class='text_block blx'><div class="theTent">
+<p>The Berkeley Food Institute seeks to transform food systems to expand access to healthy, affordable food and promote sustainable and equitable food production. We empower new leaders with capacities to cultivate diverse, just, resilient, and healthy food systems.</p>
+</div>
+</div><div class=pri>			<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2018/06/Ann_Thrupp_Jim-Block_2_640X640cmyk.jpg);>
+			<div class=blurb>
+				<h2>Team</h2>
+				<p class=tent>Meet the Berkeley Food Institute staff.</p>
+			</div>
+			<a class=brick href=/team/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2016/08/DSC_0508-e1517958488779.jpg);>
+			<div class=blurb>
+				<h2>Our Story</h2>
+				<p class=tent>We empower new leaders with capacities to cultivate diverse, just, resilient, and healthy food systems.</p>
+			</div>
+			<a class=brick href=/our-story/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2014/04/CoverCrop-Full-Belly-Farm-Photo-by-Paul-Kirchner-Studios.jpg);>
+			<div class=blurb>
+				<h2>Centers</h2>
+				<p class=tent>BFI hosts two affiliated research centers: the Center for Diversified Farming Systems and Food Labor Research Center.</p>
+			</div>
+			<a class=brick href=/centers/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2016/12/Elsadig-Elsheikh-e1517957160818.jpg);>
+			<div class=blurb>
+				<h2>Affiliates</h2>
+				<p class=tent>BFI has 150 affiliated faculty and staff at UC Berkeley.</p>
+			</div>
+			<a class=brick href=/affiliates/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2014/07/NVG-choicephotography149-e1443651364466.jpg);>
+			<div class=blurb>
+				<h2>Executive Committee</h2>
+				<p class=tent>The BFI Executive Committee provides oversight, advice, guidance, and support to the BFI staff/leaders about the general direction, strategies, and programs of the Institute.</p>
+			</div>
+			<a class=brick href=/executive-committee/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2018/05/KB_BerkeleyFoodInstitute_2013Symposium_322.jpg);>
+			<div class=blurb>
+				<h2>Advisory Council</h2>
+				<p class=tent></p>
+			</div>
+			<a class=brick href=/advisory-council/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2017/05/2017-04-19_FoodscapeMapLaunch-2727-e1517957208274.jpg);>
+			<div class=blurb>
+				<h2>Student Fellows</h2>
+				<p class=tent>BFI supports student fellows across disciplines to work on a variety of research, communications, policy, and community engagement projects.</p>
+			</div>
+			<a class=brick href=/student-fellows/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2016/08/SatherGate-e1517957523717.jpg);>
+			<div class=blurb>
+				<h2>Partner Schools</h2>
+				<p class=tent>BFI is a unique, interdisciplinary center that partners with seven schools on campus, benefiting from a wide-range of food systems expertise.</p>
+			</div>
+			<a class=brick href=/partner-schools/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2017/10/BFI_UrbanTilth-1768-e1517957492170.jpg);>
+			<div class=blurb>
+				<h2>Supporters</h2>
+				<p class=tent>BFI's work is generously supported through both University and non-University funding sources.</p>
+			</div>
+			<a class=brick href=/supporters/></a>
+			</div>
+			</div>
+					<div class=priFrame data-test=>
+			<div class="lpBrick land" style=background-image:url(/wp-content/uploads/2016/08/B_gfx_goldenbeetsRGB-e1517957251826.jpg);>
+			<div class=blurb>
+				<h2>Annual Reports</h2>
+				<p class=tent>Read our annual reports here.</p>
+			</div>
+			<a class=brick href=/annual-reports/></a>
+			</div>
+			</div>
+		</div>		</div>
+					<div class="col-lg-2 sidebar landside test">
+<ul>
+<li class=parent data-rent=1766><a href=/>Related Links</a></li>
+<li><a href=/advisory-council/>Advisory Council</a></li>
+<li><a href=/affiliates/>Affiliates</a></li>
+<li><a href=/student-fellows/>Student Fellows</a></li>
+<li><a href=/annual-reports/>BFI Annual Reports</a></li>
+<li><a href=/centers/>Centers</a></li>
+<li><a href=/visiting-scholars/>Visiting Fellows</a></li>
+<li><a href=/executive-committee/>Executive Committee</a></li>
+<li><a href=/supporters/>Supporters</a></li>
+<li><a href=/our-story/>Our Story</a></li>
+<li><a href=/partner-schools/>Partner Schools</a></li>
+<li><a href=/team/>Team</a></li>
+</ul>
+</div>
+			</div>
+</div>
+            </main>
+            <footer>
+
+    <img class="bcallout" alt="B Engaged!" src="/wp-content/themes/ccprototypev5/images/B-engaged.png"/>
+    <div id="newsletter" class="row newsletter"  style="background-image:linear-gradient(to top,rgba(25,119,169,0.7),rgba(25,119,169,0.7)),url(/wp-content/uploads/2018/06/newsletterbg-2.jpg);">
+
+        <div class="container">
+
+        
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_5' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_5' id='gform_5'  action='/about-us/'>
+                        <div class='gform_heading'>
+                            <h3 class='gform_title'>Sign Up for Our Newsletter and Stay In Touch!</h3>
+                        </div>
+                        <div class='gform_body'><ul id='gform_fields_5' class='gform_fields top_label form_sublabel_below description_below'><div class=wrapone><li id='field_5_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_5_1' >First Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_5_1' type='text' value='' class='medium'    placeholder='First Name' aria-required="true" aria-invalid="false" /></div></li><li id='field_5_4'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_5_4' >Last Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_4' id='input_5_4' type='text' value='' class='medium'    placeholder='Last Name' aria-required="true" aria-invalid="false" /></div></li><li id='field_5_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_5_2' >Email Address<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_5_2' type='text' value='' class='medium'    placeholder='Email Address' aria-required="true" aria-invalid="false"/>
+                        </div></li></div><li id='field_5_3'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label'  >What would you like more info about? (check all that apply)</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_5_3'><li class='gchoice_5_3_1'>
+								<input name='input_3.1' type='checkbox'  value='BFI News &amp; Events'  id='choice_5_3_1'   />
+								<label for='choice_5_3_1' id='label_5_3_1'>BFI News & Events</label>
+							</li><li class='gchoice_5_3_2'>
+								<input name='input_3.2' type='checkbox'  value='Food &amp; Agriculture Policy Alerts'  id='choice_5_3_2'   />
+								<label for='choice_5_3_2' id='label_5_3_2'>Food & Agriculture Policy Alerts</label>
+							</li><li class='gchoice_5_3_3'>
+								<input name='input_3.3' type='checkbox'  value='Student Opportunities'  id='choice_5_3_3'   />
+								<label for='choice_5_3_3' id='label_5_3_3'>Student Opportunities</label>
+							</li><li class='gchoice_5_3_4'>
+								<input name='input_3.4' type='checkbox'  value='UC Berkeley Foodscape Map'  id='choice_5_3_4'   />
+								<label for='choice_5_3_4' id='label_5_3_4'>UC Berkeley Foodscape Map</label>
+							</li></ul></div></li><div class=wraptwo><li id='field_5_5'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >BFI News &amp; Events</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_5_5'><li class='gchoice_5_5_1'>
+								<input name='input_5.1' type='checkbox'  value='BFI News &amp; Events'  id='choice_5_5_1'   />
+								<label for='choice_5_5_1' id='label_5_5_1'>BFI News & Events</label>
+							</li></ul></div></li><li id='field_5_6'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Student Opportunities</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_5_6'><li class='gchoice_5_6_1'>
+								<input name='input_6.1' type='checkbox'  value='Student Opportunities'  id='choice_5_6_1'   />
+								<label for='choice_5_6_1' id='label_5_6_1'>Student Opportunities</label>
+							</li></ul></div></li><li id='field_5_7'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >Food &amp; Agriculture Policy Alerts</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_5_7'><li class='gchoice_5_7_1'>
+								<input name='input_7.1' type='checkbox'  value='Food &amp; Agriculture Policy Alerts'  id='choice_5_7_1'   />
+								<label for='choice_5_7_1' id='label_5_7_1'>Food & Agriculture Policy Alerts</label>
+							</li></ul></div></li><li id='field_5_8'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label'  >UC Berkeley Foodscape Map</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_5_8'><li class='gchoice_5_8_1'>
+								<input name='input_8.1' type='checkbox'  value='UC Berkeley Foodscape Map'  id='choice_5_8_1'   />
+								<label for='choice_5_8_1' id='label_5_8_1'>UC Berkeley Foodscape Map</label>
+							</li></ul></div></li></div><li id='field_5_9'  class='gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_5_9' >Email</label><div class='ginput_container'><input name='input_9' id='input_5_9' type='text' value='' /></div><div class='gfield_description'>This field is for validation purposes and should be left unchanged.</div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_5' class='gform_button button' value='Sign Up'  onclick='if(window["gf_submitting_5"]){return false;}  window["gf_submitting_5"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_5"]){return false;} window["gf_submitting_5"]=true;  jQuery("#gform_5").trigger("submit",[true]); }' /><!-- Begin Daddy Analytics fields --><input type="hidden" name="" value="" /><input type="hidden" name="" value="" /><!-- End Daddy Analytics fields --> <input type='hidden' name='gform_ajax' value='form_id=5&amp;title=1&amp;description=&amp;tabindex=1' />
+            <input type='hidden' class='gform_hidden' name='is_submit_5' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='5' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_5' value='WyJbXSIsIjA5ZDQ0MWMyMzI0YTRkODNlMTI3YTc1MTJlNzk2N2MxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_5' id='gform_target_page_number_5' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_5' id='gform_source_page_number_5' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_5' id='gform_ajax_frame_5'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 5, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_5').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_5');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_5').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_5').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_5').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_5').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_5').val();gformInitSpinner( 5, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [5, current_page]);window['gf_submitting_5'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_5').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [5]);window['gf_submitting_5'] = false;}, 50);}else{jQuery('#gform_5').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [5, current_page]);} );} );</script><script type='text/javascript'> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/food.berkeley.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/food.berkeley.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 5) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [5, 1]) } ); </script>
+        </div>
+
+    </div>
+
+
+    <div class="container topfooter">
+
+        <div class="col-xs-12 col-lg-4">
+
+        <table>
+        <tr>
+        <td>
+        <a class="logo" href=""><img alt="Berkeley Food Institute Logo" src="/wp-content/themes/ccprototypev5/images/BFI_without_UC.png"/></a>
+        </td>
+
+        <td>
+        <p>Berkeley Food Institute<br />
+University of California, Berkeley<br />
+23 Giannini Hall #3100<br />
+Berkeley, California, 94720-3100</p>
+        <p><a href="mailto:foodinstitute@berkeley.edu">foodinstitute@berkeley.edu</a></p>        <p><a href="tel:510-643-8821">510-643-8821</a></p>        </td>
+
+        </tr>
+        </table>
+
+        </div>
+
+        <div class="col-xs-12 col-lg-5 col-lg-offset-1">
+        
+            <nav role="navigation" aria-label="Footer Menu">
+                        <ul class="menu footnavs">
+              
+	<div class=footnav>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1766 current_page_item menu-item-has-children menu-item-6565"><a href="/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="/priorities/">Priorities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="/programs/">Programs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="/resources/">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="/for-students/">For Students</a></li>
+	</div>
+	<div class=footnav>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="/resources/just-food-podcast/">Podcast</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="/press/">Press</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="/search/">d</a></li>
+	</div>
+
+            </ul>
+            </nav>  
+
+        </div>
+
+        <div class="col-xs-12 col-lg-2 social">
+            
+        <a class="button support" target="_blank" href="https://give.berkeley.edu/fund/?f=FN8344000">SUPPORT US</a>
+        <h4>FOLLOW US</h4>
+        <a class="socialmedia" href="https://www.facebook.com/BerkeleyFood" target="_blank"><span style="display:none;">Facebook</span><i class="icon-facebook" aria-label="Facebook icon"></i></a>
+        <a class="socialmedia" href="" target="_blank"><span style="display:none;">Twitter</span><i class="icon-twitter" aria-label="Twitter icon"></i></a>
+        <a class="socialmedia" href="https://www.instagram.com/berkeleyfoodinstitute/" target="_blank"><span style="display:none;">Instagram</span><i class="icon-instagram" aria-label="Instagram icon"></i></a>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="container copyright">
+
+        <div class="col-xs-12 col-lg-4"><a href="http://www.berkeley.edu/" target="_blank" class="berkeleylogo"><img alt="UC Berkeley Logo" src="/wp-content/themes/ccprototypev5/images/UCBerkeley_wordmark_blue.png"/></a></div>
+
+        <div class="col-xs-12 col-lg-8">&copy; 2018 The Regents of the University of California. All Rights Reserved. Website by <a href="http://www.computercourage.com" target="_blank">Computer Courage</a>.</div>
+
+
+    </div>
+
+
+
+    </footer>
+
+    
+        </div><!-- #page -->
+		<div class=newsmodal>
+			<div class=formcont data-interests=''>
+			<h4 id=thanks>Thank you for signing up! Help us to better serve your
+interests by providing more information below:</h4>
+			
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_13' style='display:none'><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_13' id='gform_13'  action='/about-us/'>
+                        <div class='gform_body'><ul id='gform_fields_13' class='gform_fields top_label form_sublabel_below description_below'><li id='field_13_1'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_1' id='input_13_1' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_13_11'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_11' id='input_13_11' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_13_9'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_9' id='input_13_9' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_13_8'  class='gfield field_sublabel_below field_description_below gfield_visibility_hidden' ><label class='gfield_label'  >filter</label><div class='ginput_container ginput_container_checkbox'><ul class='gfield_checkbox' id='input_13_8'><li class='gchoice_13_8_1'>
+								<input name='input_8.1' type='checkbox' onclick='gf_apply_rules(13,[3,4,6,7]);' onkeypress='gf_apply_rules(13,[3,4,6,7]);' value='news'  id='choice_13_8_1'   />
+								<label for='choice_13_8_1' id='label_13_8_1'>news</label>
+							</li><li class='gchoice_13_8_2'>
+								<input name='input_8.2' type='checkbox' onclick='gf_apply_rules(13,[3,4,6,7]);' onkeypress='gf_apply_rules(13,[3,4,6,7]);' value='student'  id='choice_13_8_2'   />
+								<label for='choice_13_8_2' id='label_13_8_2'>student</label>
+							</li><li class='gchoice_13_8_3'>
+								<input name='input_8.3' type='checkbox' onclick='gf_apply_rules(13,[3,4,6,7]);' onkeypress='gf_apply_rules(13,[3,4,6,7]);' value='policy'  id='choice_13_8_3'   />
+								<label for='choice_13_8_3' id='label_13_8_3'>policy</label>
+							</li><li class='gchoice_13_8_4'>
+								<input name='input_8.4' type='checkbox' onclick='gf_apply_rules(13,[3,4,6,7]);' onkeypress='gf_apply_rules(13,[3,4,6,7]);' value='foodscape'  id='choice_13_8_4'   />
+								<label for='choice_13_8_4' id='label_13_8_4'>foodscape</label>
+							</li></ul></div></li><li id='field_13_3'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_3' >Are you currently a student?</label><div class='ginput_container ginput_container_select'><select name='input_3' id='input_13_3'  class='medium gfield_select'    aria-invalid="false"><option value='UC Berkeley Undergraduate' >UC Berkeley Undergraduate</option><option value='UC Berkeley Masters Student' >UC Berkeley Masters Student</option><option value='UC Berkeley Doctoral Student' >UC Berkeley Doctoral Student</option><option value='UC Berkeley Alum' >UC Berkeley Alum</option><option value='Non-UC Berkeley Undergraduate' >Non-UC Berkeley Undergraduate</option><option value='Non-UC Berkeley Masters Student' >Non-UC Berkeley Masters Student</option><option value='Non-UC Berkeley Doctoral Student' >Non-UC Berkeley Doctoral Student</option><option value='High School Student' >High School Student</option><option value='Other Student' >Other Student</option><option value='Not a Student' >Not a Student</option></select></div></li><li id='field_13_4'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_4' >If not a student, what is your field?</label><div class='ginput_container ginput_container_select'><select name='input_4' id='input_13_4'  class='medium gfield_select'    aria-invalid="false"><option value='Agriculture' >Agriculture</option><option value='Consultant' >Consultant</option><option value='Creative Industries' >Creative Industries</option><option value='Education/University' >Education/University</option><option value='Food Retail and Restaurants' >Food Retail and Restaurants</option><option value='Financial Services' >Financial Services</option><option value='Government' >Government</option><option value='Health Care' >Health Care</option><option value='Manufacturing' >Manufacturing</option><option value='Media' >Media</option><option value='Nonprofit' >Nonprofit</option><option value='Philanthropy' >Philanthropy</option><option value='Technology' >Technology</option><option value='Unemployed' >Unemployed</option><option value='Other' >Other</option></select></div></li><li id='field_13_5'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_5' >Affiliation / Employer</label><div class='ginput_container ginput_container_text'><input name='input_5' id='input_13_5' type='text' value='UC Berkeley (Student)' class='medium'      aria-invalid="false" /></div></li><li id='field_13_6'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_6' >Title</label><div class='ginput_container ginput_container_text'><input name='input_6' id='input_13_6' type='text' value='' class='medium'      aria-invalid="false" /></div></li><li id='field_13_2'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_2' >Zip</label><div class='ginput_container ginput_container_number'><input name='input_2' id='input_13_2' type='text'    value='' class='medium'       aria-invalid="false"/></div></li><li id='field_13_7'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_13_7' >What are your policy interests?</label><div class='ginput_container ginput_container_textarea'><textarea name='input_7' id='input_13_7' class='textarea medium'     aria-invalid="false"   rows='10' cols='50'></textarea></div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_13' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_13"]){return false;}  window["gf_submitting_13"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_13"]){return false;} window["gf_submitting_13"]=true;  jQuery("#gform_13").trigger("submit",[true]); }' /><!-- Begin Daddy Analytics fields --><input type="hidden" name="" value="" /><input type="hidden" name="" value="" /><!-- End Daddy Analytics fields --> <input type='hidden' name='gform_ajax' value='form_id=13&amp;title=&amp;description=&amp;tabindex=1' />
+            <input type='hidden' class='gform_hidden' name='is_submit_13' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='13' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_13' value='WyJbXSIsIjA5ZDQ0MWMyMzI0YTRkODNlMTI3YTc1MTJlNzk2N2MxIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_13' id='gform_target_page_number_13' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_13' id='gform_source_page_number_13' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_13' id='gform_ajax_frame_13'>This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 13, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_13').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_13');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_13').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_13').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_13').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_13').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_13').val();gformInitSpinner( 13, '/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [13, current_page]);window['gf_submitting_13'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_13').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [13]);window['gf_submitting_13'] = false;}, 50);}else{jQuery('#gform_13').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [13, current_page]);} );} );</script><script type='text/javascript'> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/food.berkeley.edu\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/food.berkeley.edu\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 13) {gf_global["number_formats"][13] = {"1":{"price":false,"value":false},"11":{"price":false,"value":false},"9":{"price":false,"value":false},"8":{"price":false,"value":false},"3":{"price":false,"value":false},"4":{"price":false,"value":false},"5":{"price":false,"value":false},"6":{"price":false,"value":false},"2":{"price":false,"value":"decimal_dot"},"7":{"price":false,"value":false}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][13] = { logic: { 3: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"student"},{"fieldId":"8","operator":"is","value":"policy"},{"fieldId":"8","operator":"is","value":"foodscape"}]},"nextButton":null,"section":null},4: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"policy"},{"fieldId":"8","operator":"is","value":"foodscape"}]},"nextButton":null,"section":null},6: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"policy"},{"fieldId":"8","operator":"is","value":"foodscape"}]},"nextButton":null,"section":null},7: {"field":{"actionType":"show","logicType":"any","rules":[{"fieldId":"8","operator":"is","value":"policy"}]},"nextButton":null,"section":null} }, dependents: { 3: [3],4: [4],6: [6],7: [7] }, animation: 0, defaults: {"5":"UC Berkeley (Student)"}, fields: {"1":[],"11":[],"9":[],"8":[3,4,6,7],"3":[],"4":[],"5":[],"6":[],"2":[],"7":[]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_dot';jQuery(document).ready(function(){gf_apply_rules(13, [3,4,6,7], true);jQuery('#gform_wrapper_13').show();jQuery(document).trigger('gform_post_conditional_logic', [13, null, true]);} );} } } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [13, 1]) } ); </script>			<img id=closer src=/wp-content/themes/ccprototypev5/images/close.svg />
+			</div>
+		</div>
+		<link rel='stylesheet' id='fwpcl-front-css'  href='/wp-content/plugins/facetwp-conditional-logic/assets/css/front.css?ver=1.2.3' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/iso/isotope.pkgd.min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/iso/imagesloaded.pkgd.min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/iso/fit-columns.js'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/iso/packery-mode.pkgd.min.js'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/iso/infinite-scroll.pkgd.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajaxURL = "https:\/\/food.berkeley.edu\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/cc-script-dist.js'></script>
+<script type='text/javascript' src='/wp-content/themes/ccprototypev5/js/land.js'></script>
+<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.0.0-beta.1'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.3.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.3.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.3.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.3.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var FWPCL = {"rulesets":[{"label":"Edit me","on":"refresh-loaded","conditions":[[{"object":"facet-themes","compare":"not","value":""}]],"actions":[{"toggle":"show","object":"custom","selector":"$('#keywords')"}]}]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/facetwp-conditional-logic/assets/js/front.js?ver=1.2.3'></script>
+	</body>
+</html>

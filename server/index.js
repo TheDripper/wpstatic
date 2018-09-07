@@ -30,46 +30,58 @@ async function press(mark) {
 		console.log('fetching asset srcs...')
 		let appdir = path.resolve(__dirname,'..')
 		let statdir = path.join(appdir,'static')
-		console.log(statdir)
 		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
 		let clean = []
-		for (const dirty of urls(mark)) {
-			let url = prep(dirty).split('?')[0]
-			let ext = path.extname(url)
-			let test = parseurl.parse(url)
-			if(mime.includes(ext) && !url.includes('typekit')) {
-		      		let { data } = await axios.get(url,{responseType:"arraybuffer"})
-				let name = path.basename(url)
-				let parsed = path.parse(url)
-				if(name.includes('slick')) {
-					url = url.replace('http:','')
-				}
-				mark = mark.replace(url,path.join(statdir,parsed.base))
-				
-				fs.writeFile('static/'+name,data,function(err){
-				        if(err)
-						console.log(err)
-				})
-			}
-		}
+		let markary = []
 		const $ = cheerio.load(mark)
 		$('a').each(function(){
-			let org = $(this).attr('href')
-			if(typeof org != 'undefined') {
-				let href = parseurl.parse($(this).attr('href')).path
-				if(href!==null) {
-					href = href.replace(/^\/|\/$/g, '')
-					href = appdir + '/scrapes/' + href + ".html"
-					let tag = $.html($(this))
-					let fix = tag.replace(org,href)
-					console.log(href)
-					mark = mark.replace(tag,fix)
+			let href = $(this).attr('href')
+			let newpath = parseurl.parse(href).path
+			if(newpath!==null) {
+				if(newpath.length==1)
+					newpath = 'index/'
+				newpath = path.join(appdir,'scrapes',newpath).slice(0,-1)+'.html'
+				$(this).attr('href',newpath)
+			}
+		})
+		$('script, img').each(async function(){
+			let src = $(this).attr('src')
+			if(typeof src != 'undefined') {
+				let name = path.basename(src).split('?')[0]
+				let newsrc = path.join(appdir,'static',name)
+				$(this).attr('src',newsrc)
+				try {
+					let { data } = await axios.get(src,{responseType:"arraybuffer"})
+					fs.writeFile(path.join('static',name),data,function(err){
+						if(err)
+							console.log('err')
+					})
+				} catch(err) {
+					//console.log(err)
 				}
 			}
-
 		})
-		console.log('mark')
-		return mark
+		$('[style*="image"]').each(async function(){
+			var reg = new RegExp("url((.*))")
+			let url = $(this).attr('style').match(reg)[1].slice(1,-2)
+			let name = path.basename(url)
+			let newsrc = path.join(appdir,'static',name)
+			let regurl = new RegExp(url)
+			let style = $(this).attr('style')
+			$(this).attr('style',style.replace(regurl,newsrc))
+			console.log(newsrc)
+			try {
+				let { data } = await axios.get(url,{responseType:"arraybuffer"})
+				fs.writeFile(path.join('static',name),data,function(err){
+					if(err)
+						console.log('err')
+					console.log('wrote '+name)
+				})
+			} catch(err) {
+				//console.log(err)
+			}
+		})
+		return $.html()
 	  } catch(err) {
 	  	console.log('server');
 	  	console.log(err);

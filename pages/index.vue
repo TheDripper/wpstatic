@@ -45,14 +45,16 @@ export default {
 			//	'http://food.berkeley.edu/about-us'
 			//]
 			let page = document.querySelector('#site').value
-			let sites = await axios.post('/crawl',{page:page})
-			sites = sites.data
-			sites.unshift(page)
+			//let sites = await axios.post('/crawl',{page:page})
+			//sites = sites.data
+			//sites.unshift(page)
+			let sites = ['http://food.berkeley.edu/about-us/']
 			sites.forEach(page=>{
+				console.log(page)
 				setTimeout(async function(){
 					let { data } = await axios.post('/scrape',{page:page});
 					console.log('scraped ' + page)
-				},500)
+				},50)
 			})
 		}
 	}
