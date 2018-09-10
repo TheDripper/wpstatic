@@ -29,15 +29,15 @@
 		</div>
 
 		<div id="topmenu" class="container">
-			<a id="logo" href="https://food.berkeley.edu" class="">
+			<a id="logo" href="index.html" class="">
 	        <img alt="Berkeley Food Institute UC Berkeley" src="BFI_with_UC.png"/>
 	        </a>
 
-			<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-6318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="https://food.berkeley.edu/resources/just-food-podcast/">Podcast</a></li>
-<li id="menu-item-6319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="https://bfi2016.wpengine.com/calendar">Events</a></li>
-<li id="menu-item-2218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="https://food.berkeley.edu/contact-us/">Contact Us</a></li>
-<li id="menu-item-6601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="https://food.berkeley.edu/press/">Press</a></li>
-<li id="menu-item-8289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="https://food.berkeley.edu/search/">d</a></li>
+			<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-6318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="/resources/just-food-podcast.html">Podcast</a></li>
+<li id="menu-item-6319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="/calenda.html">Events</a></li>
+<li id="menu-item-2218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="/contact-us.html">Contact Us</a></li>
+<li id="menu-item-6601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="/press.html">Press</a></li>
+<li id="menu-item-8289" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="/search.html">d</a></li>
 </ul></div>		</div>
 
 			<header id="header" role="banner">
@@ -49,58 +49,58 @@
 								<div class="middle bar"/>
 								<div class="bottom bar"/>
 							</div>
-							<div id="main-menu" class="menu-menu-2016-container"><ul id="menu-menu-2016" class="menu"><li id="menu-item-6565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6565"><a href="https://food.berkeley.edu/about-us/">About Us</a>
+							<div id="main-menu" class="menu-menu-2016-container"><ul id="menu-menu-2016" class="menu"><li id="menu-item-6565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6565"><a href="/about-us.html">About Us</a>
 <ul class="sub-menu">
-	<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="https://food.berkeley.edu/about-us/team/">Team</a></li>
-	<li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="https://food.berkeley.edu/about-us/our-story/">Our Story</a></li>
-	<li id="menu-item-2197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2197"><a href="https://food.berkeley.edu/about-us/centers/">Centers</a></li>
-	<li id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2293"><a href="https://food.berkeley.edu/about-us/affiliates/">Affiliates</a></li>
-	<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="https://food.berkeley.edu/about-us/executive-committee/">Executive Committee</a></li>
-	<li id="menu-item-7607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7607"><a href="https://food.berkeley.edu/about-us/advisory-council/">Advisory Council</a></li>
-	<li id="menu-item-2133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2133"><a href="https://food.berkeley.edu/about-us/student-fellows/">Student Fellows</a></li>
-	<li id="menu-item-2278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="https://food.berkeley.edu/about-us/partner-schools/">Partner Schools</a></li>
-	<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2275"><a href="https://food.berkeley.edu/about-us/supporters/">Supporters</a></li>
-	<li id="menu-item-2277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><a href="https://food.berkeley.edu/about-us/annual-reports/">Annual Reports</a></li>
+	<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/about-us/team.html">Team</a></li>
+	<li id="menu-item-2279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2279"><a href="/about-us/our-story.html">Our Story</a></li>
+	<li id="menu-item-2197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2197"><a href="/about-us/centers.html">Centers</a></li>
+	<li id="menu-item-2293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2293"><a href="/about-us/affiliates.html">Affiliates</a></li>
+	<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2136"><a href="/about-us/executive-committee.html">Executive Committee</a></li>
+	<li id="menu-item-7607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7607"><a href="/about-us/advisory-council.html">Advisory Council</a></li>
+	<li id="menu-item-2133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2133"><a href="/about-us/student-fellows.html">Student Fellows</a></li>
+	<li id="menu-item-2278" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2278"><a href="/about-us/partner-schools.html">Partner Schools</a></li>
+	<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2275"><a href="/about-us/supporters.html">Supporters</a></li>
+	<li id="menu-item-2277" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2277"><a href="/about-us/annual-reports.html">Annual Reports</a></li>
 </ul>
 </li>
-<li id="menu-item-6321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="https://food.berkeley.edu/priorities/">Priorities</a>
+<li id="menu-item-6321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="/priorities.html">Priorities</a>
 <ul class="sub-menu">
-	<li id="menu-item-6322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6322"><a href="https://food.berkeley.edu/priorities/agroecology/">Urban and Rural Agroecology</a></li>
-	<li id="menu-item-6323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6323"><a href="https://food.berkeley.edu/priorities/fair-healthy-jobs/">Fair and Healthy Jobs</a></li>
-	<li id="menu-item-6324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6324"><a href="https://food.berkeley.edu/priorities/good-food-access/">Good Food Access</a></li>
+	<li id="menu-item-6322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6322"><a href="/priorities/agroecology.html">Urban and Rural Agroecology</a></li>
+	<li id="menu-item-6323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6323"><a href="/priorities/fair-healthy-jobs.html">Fair and Healthy Jobs</a></li>
+	<li id="menu-item-6324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6324"><a href="/priorities/good-food-access.html">Good Food Access</a></li>
 </ul>
 </li>
-<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="https://food.berkeley.edu/programs/">Programs</a>
+<li id="menu-item-2175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="/programs.html">Programs</a>
 <ul class="sub-menu">
-	<li id="menu-item-6521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6521"><a href="https://food.berkeley.edu/programs/community-engagement-edu/">Community Engagement and Education</a></li>
-	<li id="menu-item-1800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1800"><a href="https://food.berkeley.edu/programs/policy/">Policy</a></li>
-	<li id="menu-item-2176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176"><a href="https://food.berkeley.edu/programs/research/">Research</a></li>
+	<li id="menu-item-6521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6521"><a href="/programs/community-engagement-edu.html">Community Engagement and Education</a></li>
+	<li id="menu-item-1800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1800"><a href="/programs/policy.html">Policy</a></li>
+	<li id="menu-item-2176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176"><a href="/programs/research.html">Research</a></li>
 </ul>
 </li>
-<li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="https://food.berkeley.edu/resources/">Resources</a>
+<li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="/resources.html">Resources</a>
 <ul class="sub-menu">
-	<li id="menu-item-8275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8275"><a href="https://food.berkeley.edu/resources/changemakers/">Changemakers: Hungry for Change</a></li>
-	<li id="menu-item-5044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5044"><a href="https://food.berkeley.edu/resources/just-food-podcast/">Just Food Podcast</a></li>
-	<li id="menu-item-5204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5204"><a href="https://food.berkeley.edu/resources/news/">News</a></li>
-	<li id="menu-item-5205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5205"><a href="https://bfi2016.wpengine.com/resources/news/?filter=bfi-in-the-media">BFI in the Media</a></li>
-	<li id="menu-item-5206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5206"><a href="https://bfi2016.wpengine.com/resources/news/?filter=from-the-field">From the Field</a></li>
-	<li id="menu-item-6329" class="menu-item menu-item-type-post_type menu-item-object-map_page menu-item-6329"><a href="https://food.berkeley.edu/foodscape/map/">UC Berkeley Foodscape Map</a></li>
-	<li id="menu-item-6330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6330"><a href="https://food.berkeley.edu/resources/food-at-berkeley/">Food@Berkeley</a></li>
-	<li id="menu-item-6331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6331"><a href="https://food.berkeley.edu/resources/the-potluck/">The Berkeley Potluck</a></li>
-	<li id="menu-item-6332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6332"><a href="https://food.berkeley.edu/resources/mark-bittman-california-matters/">Mark Bittman: California Matters</a></li>
-	<li id="menu-item-2109" class="menu-item menu-item-type-post_type_archive menu-item-object-resource menu-item-2109"><a href="https://food.berkeley.edu/research-database/">Research Database</a></li>
+	<li id="menu-item-8275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8275"><a href="/resources/changemakers.html">Changemakers: Hungry for Change</a></li>
+	<li id="menu-item-5044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5044"><a href="/resources/just-food-podcast.html">Just Food Podcast</a></li>
+	<li id="menu-item-5204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5204"><a href="/resources/news.html">News</a></li>
+	<li id="menu-item-5205" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5205"><a href="/resources/news/?filter=bfi-in-the-medi.html">BFI in the Media</a></li>
+	<li id="menu-item-5206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5206"><a href="/resources/news/?filter=from-the-fiel.html">From the Field</a></li>
+	<li id="menu-item-6329" class="menu-item menu-item-type-post_type menu-item-object-map_page menu-item-6329"><a href="/foodscape/map.html">UC Berkeley Foodscape Map</a></li>
+	<li id="menu-item-6330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6330"><a href="/resources/food-at-berkeley.html">Food@Berkeley</a></li>
+	<li id="menu-item-6331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6331"><a href="/resources/the-potluck.html">The Berkeley Potluck</a></li>
+	<li id="menu-item-6332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6332"><a href="/resources/mark-bittman-california-matters.html">Mark Bittman: California Matters</a></li>
+	<li id="menu-item-2109" class="menu-item menu-item-type-post_type_archive menu-item-object-resource menu-item-2109"><a href="/research-database.html">Research Database</a></li>
 </ul>
 </li>
-<li id="menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="https://food.berkeley.edu/for-students/">For Students</a>
+<li id="menu-item-6566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="/for-students.html">For Students</a>
 <ul class="sub-menu">
-	<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="https://food.berkeley.edu/for-students/jobs-resources/">Jobs and Resources</a></li>
-	<li id="menu-item-6325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6325"><a href="https://food.berkeley.edu/for-students/funding-student-run-events/">Funding for Student-run Events</a></li>
-	<li id="menu-item-6326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6326"><a href="https://food.berkeley.edu/resources/food-at-berkeley/">Food@Berkeley</a></li>
-	<li id="menu-item-3880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3880"><a href="https://food.berkeley.edu/for-students/food-courses/">Food Courses</a></li>
-	<li id="menu-item-3568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3568"><a href="https://food.berkeley.edu/programs/community-engagement-edu/food-systems-minor/">Food Systems Minor</a></li>
-	<li id="menu-item-6327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6327"><a href="https://food.berkeley.edu/programs/community-engagement-edu/graduate-certificate-food-systems/">Graduate Certificate in Food Systems</a></li>
-	<li id="menu-item-6328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6328"><a href="https://food.berkeley.edu/for-students/student-groups/">Student Groups</a></li>
-	<li id="menu-item-2320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2320"><a href="https://food.berkeley.edu/for-students/basic-needs-security/">Basic Needs Security</a></li>
+	<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2140"><a href="/for-students/jobs-resources.html">Jobs and Resources</a></li>
+	<li id="menu-item-6325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6325"><a href="/for-students/funding-student-run-events.html">Funding for Student-run Events</a></li>
+	<li id="menu-item-6326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6326"><a href="/resources/food-at-berkeley.html">Food@Berkeley</a></li>
+	<li id="menu-item-3880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3880"><a href="/for-students/food-courses.html">Food Courses</a></li>
+	<li id="menu-item-3568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3568"><a href="/programs/community-engagement-edu/food-systems-minor.html">Food Systems Minor</a></li>
+	<li id="menu-item-6327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6327"><a href="/programs/community-engagement-edu/graduate-certificate-food-systems.html">Graduate Certificate in Food Systems</a></li>
+	<li id="menu-item-6328" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6328"><a href="/for-students/student-groups.html">Student Groups</a></li>
+	<li id="menu-item-2320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2320"><a href="/for-students/basic-needs-security.html">Basic Needs Security</a></li>
 </ul>
 </li>
 </ul></div>						</nav>
@@ -111,7 +111,7 @@
 
 
 <div class="row homecarousel">
-<div id="homecarousel" class="slick-slider clearfix"><div class="slide" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/13F-e1535494763991.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Three New Policy Briefs on the 2018 Farm Bill</h1><a target="_blank" class="button" href="https://food.berkeley.edu/programs/policy/policy-briefs/">Read Policy Briefs here</a></div></div><div class="slide" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/hungryredux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1/><a class="button" href="https://food.berkeley.edu/resources/changemakers/">Learn More Here</a></div></div><div class="slide" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/streamdux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>UC Berkeley Foodscape Map Now Live</h1><a class="button" href="https://food.berkeley.edu/foodscape/">View Here</a></div></div><div class="slide" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/peepsdux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Support Our Work</h1><a target="_blank" class="button" href="https://give.berkeley.edu/fund/?f=FN8344000">Donate</a></div></div><div class="slide" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/06/less.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Food@Berkeley Video</h1><a class="button" href="https://food.berkeley.edu/for-students/">Watch Here</a></div></div></div>	<div class="container">
+<div id="homecarousel" class="slick-slider clearfix"><div class="slide" style="background:url(13F-e1535494763991.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Three New Policy Briefs on the 2018 Farm Bill</h1><a target="_blank" class="button" href="/programs/policy/policy-briefs.html">Read Policy Briefs here</a></div></div><div class="slide" style="background:url(hungryredux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1/><a class="button" href="/resources/changemakers.html">Learn More Here</a></div></div><div class="slide" style="background:url(streamdux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>UC Berkeley Foodscape Map Now Live</h1><a class="button" href="/foodscape.html">View Here</a></div></div><div class="slide" style="background:url(peepsdux.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Support Our Work</h1><a target="_blank" class="button" href="/fund/?f=FN834400.html">Donate</a></div></div><div class="slide" style="background:url(less.jpg) no-repeat center center;background-size:cover;"><div class="container"><h1>Food@Berkeley Video</h1><a class="button" href="/for-students.html">Watch Here</a></div></div></div>	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<span id="tagline">Cultivating Diversity, Justice, Resilience &amp; Health</span>			</div>
@@ -133,41 +133,41 @@
 		<div class="frame">
 								
 
-		<div class="lpBrick front" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/07/IMG_7295-768x1024.jpg);">
+		<div class="lpBrick front" style="background:url(IMG_7295-768x1024.jpg);">
 		<div class="blurb">
 			<h2><span class="cred">Prevention Magazine: </span>29 Little Ways to Cut Back on Food Waste</h2>
 		</div>
-		<a href="https://www.prevention.com/food-nutrition/a22997869/food-waste-solutions/" target="_blank"/>
+		<a href="/food-nutrition/a22997869/food-waste-solutions.html" target="_blank"/>
 		</div>
 </div>
 <div class="frame">
 						
 
-		<div class="lpBrick front" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/BUSD_3.png);">
+		<div class="lpBrick front" style="background:url(BUSD_3.png);">
 		<div class="blurb">
 			<h2>Sugar-Sweetened Beverage Tax Revenues Quench the Thirst for Nutrition Innovation in Bay Area Schools</h2>
 		</div>
-		<a href="https://food.berkeley.edu/from-the-field/sugar-sweetened-beverage-tax-revenues-quench-the-thirst-for-nutrition-innovation-in-bay-area-schools-2/"/>
+		<a href="/from-the-field/sugar-sweetened-beverage-tax-revenues-quench-the-thirst-for-nutrition-innovation-in-bay-area-schools-2.html"/>
 		</div>
 </div>
 <div class="frame">
 						
 
-		<div class="lpBrick front" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/2A-e1534973611119-768x428.jpg);">
+		<div class="lpBrick front" style="background:url(2A-e1534973611119-768x428.jpg);">
 		<div class="blurb">
 			<h2>Student Organic Garden Association Programs and Operations Interns</h2>
 		</div>
-		<a href="https://food.berkeley.edu/jobs/student-organic-garden-association-operations-intern/"/>
+		<a href="/jobs/student-organic-garden-association-operations-intern.html"/>
 		</div>
 </div>
 <div class="frame">
 								
 
-		<div class="lpBrick front" style="background:url(https://food.berkeley.edu/wp-content/uploads/2018/08/10A-Foodscape-Map-Image-768x280.png);">
+		<div class="lpBrick front" style="background:url(10A-Foodscape-Map-Image-768x280.png);">
 		<div class="blurb">
 			<h2><span class="cred">Haas Institute for a Fair and Inclusive Society: </span>The Foodscape Mapping Project</h2>
 		</div>
-		<a href="https://haasinstitute.berkeley.edu/foodscape-map" target="_blank"/>
+		<a href="/foodscape-ma.html" target="_blank"/>
 		</div>
 </div>
 
@@ -183,7 +183,7 @@
 		<div id="feature">
 		<h2>Does Urban Agriculture Improve Food Security?</h2>
 		<p>New research findings from the BFI project &#x201C;Sustainable Urban Farming for Resilience and Food Security&#x201D;</p>
-				<a class="butt" href="https://food.berkeley.edu/sustainable-urban-farming-for-resilience-and-food-security/">Learn more here!</a>
+				<a class="butt" href="/sustainable-urban-farming-for-resilience-and-food-security.html">Learn more here!</a>
 		</div>
 
 
@@ -196,18 +196,18 @@
 	<div class="media-left">
 	<div class="date"><span class="month">Sep</span><span class="day">12</span></div>
 </div>
-<div class="media-body"><h3><a href="http://events.berkeley.edu/index.php/calendar/sn/bfi.html?event_ID=118880&amp;date=2018-09-12">Sustainability Involvement Expo</a></h3></div></li>
+<div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=118880&amp;date=2018-09-1.html">Sustainability Involvement Expo</a></h3></div></li>
 <li class="media">
 	<div class="media-left">
 	<div class="date"><span class="month">Sep</span><span class="day">13</span></div>
 </div>
-<div class="media-body"><h3><a href="http://events.berkeley.edu/index.php/calendar/sn/bfi.html?event_ID=119633&amp;date=2018-09-13">[Peterson Speaker Series] Inspiring Tomorrow&apos;s Business Leaders: Clif Bar Co-owners Gary Erickson and Kit Crawford</a></h3></div></li>
+<div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=119633&amp;date=2018-09-1.html">[Peterson Speaker Series] Inspiring Tomorrow&apos;s Business Leaders: Clif Bar Co-owners Gary Erickson and Kit Crawford</a></h3></div></li>
 <li class="media">
 	<div class="media-left">
 	<div class="date"><span class="month">Sep</span><span class="day">20</span></div>
 </div>
-<div class="media-body"><h3><a href="http://events.berkeley.edu/index.php/calendar/sn/bfi.html?event_ID=118882&amp;date=2018-09-20">Seeds of Resistance: The Fight to Save Our Food Supply</a></h3></div></li>
-</ul><div class="more-link"><a href="http://events.berkeley.edu/index.php/calendar/sn/bfi.html">More events</a></div></div></div>		</div>
+<div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=118882&amp;date=2018-09-2.html">Seeds of Resistance: The Fight to Save Our Food Supply</a></h3></div></li>
+</ul><div class="more-link"><a href="/index.php/calendar/sn/bfi.htm.html">More events</a></div></div></div>		</div>
 
 		</div>
 
@@ -224,7 +224,7 @@
 											<div class="ccblx">
 	<div class="photext blx">			<div class="photext">
 				<div class="split">
-									<div class="phomage" style="height:500px; width:520px; background-image:url(https://food.berkeley.edu/wp-content/uploads/2018/06/BFI-themes-RGB-e1467919669628.jpg);">
+									<div class="phomage" style="height:500px; width:520px; background-image:url(BFI-themes-RGB-e1467919669628.jpg);">
 												</div>
 				<div class="phocopy">
 				<h2>Our Mission</h2>
@@ -248,7 +248,7 @@
             <footer>
 
     <img class="bcallout" alt="B Engaged!" src="B-engaged.png"/>
-    <div id="newsletter" class="row newsletter" style="background-image:linear-gradient(to top,rgba(25,119,169,0.7),rgba(25,119,169,0.7)),url(https://food.berkeley.edu/wp-content/uploads/2018/06/newsletterbg-2.jpg);">
+    <div id="newsletter" class="row newsletter" style="background-image:linear-gradient(to top,rgba(25,119,169,0.7),rgba(25,119,169,0.7)),url(newsletterbg-2.jpg);">
 
         <div class="container">
 
@@ -283,7 +283,7 @@
 							</li></ul></div></li><li id="field_5_8" class="gfield field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label">UC Berkeley Foodscape Map</label><div class="ginput_container ginput_container_checkbox"><ul class="gfield_checkbox" id="input_5_8"><li class="gchoice_5_8_1">
 								<input name="input_8.1" type="checkbox" value="UC Berkeley Foodscape Map" id="choice_5_8_1"/>
 								<label for="choice_5_8_1" id="label_5_8_1">UC Berkeley Foodscape Map</label>
-							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Phone</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
+							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Comments</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
                             </ul></div>
         <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_5" class="gform_button button" value="Sign Up" onclick="if(window[&quot;gf_submitting_5&quot;]){return false;}  window[&quot;gf_submitting_5&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_5&quot;]){return false;} window[&quot;gf_submitting_5&quot;]=true;  jQuery(&quot;#gform_5&quot;).trigger(&quot;submit&quot;,[true]); }"/><!-- Begin Daddy Analytics fields --><input type="hidden" name="" value=""/><input type="hidden" name="" value=""/><!-- End Daddy Analytics fields --> <input type="hidden" name="gform_ajax" value="form_id=5&amp;title=1&amp;description=&amp;tabindex=1"/>
             <input type="hidden" class="gform_hidden" name="is_submit_5" value="1"/>
@@ -312,7 +312,7 @@
         <table>
         <tbody><tr>
         <td>
-        <a class="logo" href="https://food.berkeley.edu"><img alt="Berkeley Food Institute Logo" src="BFI_without_UC.png"/></a>
+        <a class="logo" href="index.html"><img alt="Berkeley Food Institute Logo" src="BFI_without_UC.png"/></a>
         </td>
 
         <td>
@@ -333,18 +333,18 @@ Berkeley, California, 94720-3100</p>
                         <ul class="menu footnavs">
               
 	<div class="footnav">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6565"><a href="https://food.berkeley.edu/about-us/">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="https://food.berkeley.edu/priorities/">Priorities</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="https://food.berkeley.edu/programs/">Programs</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="https://food.berkeley.edu/resources/">Resources</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="https://food.berkeley.edu/for-students/">For Students</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6565"><a href="/about-us.html">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6321"><a href="/priorities.html">Priorities</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="/programs.html">Programs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1789"><a href="/resources.html">Resources</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6566"><a href="/for-students.html">For Students</a></li>
 	</div>
 	<div class="footnav">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="https://food.berkeley.edu/resources/just-food-podcast/">Podcast</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="https://bfi2016.wpengine.com/calendar">Events</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="https://food.berkeley.edu/contact-us/">Contact Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="https://food.berkeley.edu/press/">Press</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="https://food.berkeley.edu/search/">d</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="/resources/just-food-podcast.html">Podcast</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6319"><a target="_blank" href="/calenda.html">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2218"><a href="/contact-us.html">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6601"><a href="/press.html">Press</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8289"><a href="/search.html">d</a></li>
 	</div>
 
             </ul>
@@ -354,11 +354,11 @@ Berkeley, California, 94720-3100</p>
 
         <div class="col-xs-12 col-lg-2 social">
             
-        <a class="button support" target="_blank" href="https://give.berkeley.edu/fund/?f=FN8344000">SUPPORT US</a>
+        <a class="button support" target="_blank" href="/fund/?f=FN834400.html">SUPPORT US</a>
         <h4>FOLLOW US</h4>
-        <a class="socialmedia" href="https://www.facebook.com/BerkeleyFood" target="_blank"><span style="display:none;">Facebook</span><i class="icon-facebook" aria-label="Facebook icon"/></a>
-        <a class="socialmedia" href="https://twitter.com/UCBerkeleyFood" target="_blank"><span style="display:none;">Twitter</span><i class="icon-twitter" aria-label="Twitter icon"/></a>
-        <a class="socialmedia" href="https://www.instagram.com/berkeleyfoodinstitute/" target="_blank"><span style="display:none;">Instagram</span><i class="icon-instagram" aria-label="Instagram icon"/></a>
+        <a class="socialmedia" href="/BerkeleyFoo.html" target="_blank"><span style="display:none;">Facebook</span><i class="icon-facebook" aria-label="Facebook icon"/></a>
+        <a class="socialmedia" href="/UCBerkeleyFoo.html" target="_blank"><span style="display:none;">Twitter</span><i class="icon-twitter" aria-label="Twitter icon"/></a>
+        <a class="socialmedia" href="/berkeleyfoodinstitute.html" target="_blank"><span style="display:none;">Instagram</span><i class="icon-instagram" aria-label="Instagram icon"/></a>
 
 
         </div>
@@ -368,9 +368,9 @@ Berkeley, California, 94720-3100</p>
 
     <div class="container copyright">
 
-        <div class="col-xs-12 col-lg-4"><a href="http://www.berkeley.edu/" target="_blank" class="berkeleylogo"><img alt="UC Berkeley Logo" src="UCBerkeley_wordmark_blue.png"/></a></div>
+        <div class="col-xs-12 col-lg-4"><a href="index.html" target="_blank" class="berkeleylogo"><img alt="UC Berkeley Logo" src="UCBerkeley_wordmark_blue.png"/></a></div>
 
-        <div class="col-xs-12 col-lg-8">&#xA9; 2018 The Regents of the University of California. All Rights Reserved. Website by <a href="http://www.computercourage.com" target="_blank">Computer Courage</a>.</div>
+        <div class="col-xs-12 col-lg-8">&#xA9; 2018 The Regents of the University of California. All Rights Reserved. Website by <a href="index.html" target="_blank">Computer Courage</a>.</div>
 
 
     </div>
@@ -418,7 +418,7 @@ interests by providing more information below:</h4>
                 			<img id="closer" src="close.svg"/>
 			</div>
 		</div>
-		<link rel="stylesheet" id="fwpcl-front-css" href="https://food.berkeley.edu/wp-content/plugins/facetwp-conditional-logic/assets/css/front.css?ver=1.2.3" type="text/css" media="all"/>
+		<link rel="stylesheet" id="fwpcl-front-css" href="front.css" type="text/css" media="all"/>
 
 
 

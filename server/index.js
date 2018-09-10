@@ -66,6 +66,54 @@ async function temp(mark) {
 				}
 			}
 		})
+		$('link').each(async function(){
+			let href = $(this).attr('href').split('?')[0]
+			let base = path.basename(href)
+			//let newhref = path.join(appdir,'static',base)
+			let newhref = base
+			$(this).attr('href',newhref)
+			if(path.parse(href).ext=='.css') {
+				let { data } = await axios.get(href)
+				fs.writeFile(path.join('static',base),data,function(err){
+					if(err)
+						console.log('err')
+				})
+			}
+		})
+		$('[style*="background"]').each(async function(){
+			//var reg = new RegExp("url("+"(.*)"+")")
+			//let url = $(this).attr('style').match(reg)[1].slice(1,-2)
+			let url = Array.from(urls($(this).attr('style')))[0]
+			url = nospec(url)
+			console.log(url)
+			let name = path.basename(url)
+			//let newsrc = path.join(appdir,'static',name)
+			let newsrc = name
+			let regurl = new RegExp(url)
+			let style = $(this).attr('style')
+			let newstyle = style.replace(regurl,newsrc)
+			$(this).attr('style',newstyle)
+			try {
+				let { data } = await axios.get(url,{responseType:"arraybuffer"})
+				fs.writeFile(path.join('static',name),data,'binary',function(err){
+					if(err)
+						console.log('err')
+				})
+			} catch(err) {
+				//console.log(err)
+			}
+		})
+		$('a').each(function(){
+			let href = $(this).attr('href')
+			let newpath = parseurl.parse(href).path
+			if(newpath!==null) {
+				if(newpath.length==1)
+					newpath = 'index/'
+				//newpath = path.join(appdir,'scrapes',newpath).slice(0,-1)+'.html'
+				newpath = newpath.slice(0,-1)+'.html'
+				$(this).attr('href',newpath)
+			}
+		})
 	} catch(err) {
 		console.log(err)
 	}
