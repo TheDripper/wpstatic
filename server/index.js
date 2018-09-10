@@ -25,10 +25,69 @@ app.set('port', port)
 let config = require('../nuxt.config.js')
 config.dev = !(process.env.NODE_ENV === 'production')
 
+
+async function temp(mark) {
+	const $ = cheerio.load(mark)
+	try {
+		let test = []
+		$('script').each(async function(){
+			let src = $(this).attr('src')
+			let deps = []
+			if(typeof src != 'undefined') {
+				try {
+					let name = path.basename(src).split('?')[0]
+					console.log(name)
+					let { data } = await axios.get(src,{responseType:"arraybuffer"})
+					fs.writeFile(path.join('static',name),data,function(err){
+						if(err)
+							console.log('err')
+					})
+				} catch(err) {
+					console.log(err)
+				}
+			}
+			$(this).remove()
+		})
+		fs.writeFileSync('deps.txt',deps,'utf-8')
+		//$('script, img').each(async function(){
+		//	let src = $(this).attr('src')
+		//	if(typeof src != 'undefined') {
+		//		let name = path.basename(src).split('?')[0]
+		//		//let newsrc = path.join(appdir,'static',name)
+		//		let newsrc = name
+		//		let tag = $(this)[0].name
+		//		if(typeof $(this)[0]!='undefined') {
+		//			if(tag=='img') {
+		//				$(this).attr('src',newsrc)
+		//			} else {
+		//				console.log(this)
+		//				$(this).remove()
+		//			}
+		//		}
+		//		try {
+		//			let { data } = await axios.get(src,{responseType:"arraybuffer"})
+		//			fs.writeFile(path.join('static',name),data,function(err){
+		//				if(err)
+		//					console.log('err')
+		//			})
+		//		} catch(err) {
+		//			//console.log(err)
+		//		}
+		//	}
+		//})
+	} catch(err) {
+		console.log(err)
+	}
+	return $('body')
+
+}
+
 async function press(mark) {
 	try {
 		console.log('fetching asset srcs...')
-		let appdir = path.resolve(__dirname,'..')
+		//let appdir = path.resolve(__dirname,'..')
+		let appdir = '/'
+		console.log(appdir)
 		let statdir = path.join(appdir,'static')
 		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
 		let clean = []
@@ -40,7 +99,8 @@ async function press(mark) {
 			if(newpath!==null) {
 				if(newpath.length==1)
 					newpath = 'index/'
-				newpath = path.join(appdir,'scrapes',newpath).slice(0,-1)+'.html'
+				//newpath = path.join(appdir,'scrapes',newpath).slice(0,-1)+'.html'
+				newpath = newpath.slice(0,-1)+'.html'
 				$(this).attr('href',newpath)
 			}
 		})
@@ -48,7 +108,8 @@ async function press(mark) {
 			let src = $(this).attr('src')
 			if(typeof src != 'undefined') {
 				let name = path.basename(src).split('?')[0]
-				let newsrc = path.join(appdir,'static',name)
+				//let newsrc = path.join(appdir,'static',name)
+				let newsrc = name
 				$(this).attr('src',newsrc)
 				try {
 					let { data } = await axios.get(src,{responseType:"arraybuffer"})
@@ -64,7 +125,8 @@ async function press(mark) {
 		$('link').each(async function(){
 			let href = $(this).attr('href').split('?')[0]
 			let base = path.basename(href)
-			let newhref = path.join(appdir,'static',base)
+			//let newhref = path.join(appdir,'static',base)
+			let newhref = base
 			$(this).attr('href',newhref)
 			if(path.parse(href).ext=='.css') {
 				let { data } = await axios.get(href)
@@ -81,7 +143,8 @@ async function press(mark) {
 			url = nospec(url)
 			console.log(url)
 			let name = path.basename(url)
-			let newsrc = path.join(appdir,'static',name)
+			//let newsrc = path.join(appdir,'static',name)
+			let newsrc = name
 			let regurl = new RegExp(url)
 			let style = $(this).attr('style')
 			let newstyle = style.replace(regurl,newsrc)
@@ -146,11 +209,12 @@ async function start() {
 	  base = base.slice(1,-1)
 	  if(!base)
 		  base='index'
-	  let thepath = 'scrapes/'+base+'.html'
+	  let thepath = 'pages/'+base+'.vue'
 	  if(base=='/')
 		  base='index'
 	  let { data } = await axios.get(page)
-	  let mark = await press(data)
+	  //let mark = await press(data)
+	  let mark = await temp(data)
 	  console.log('write:' + base)
 	  //let dirs = parsed.path.slice(1,-1)
 	  //base = dirs.pop()
@@ -159,8 +223,13 @@ async function start() {
 	  let dir = path.parse(thepath).dir
 	  if(!fs.existsSync(dir))
 		  fs.mkdirSync(dir)
-	  fs.writeFileSync(thepath,mark);
-	  res.send('done');
+	  //fs.writeFileSync(thepath,mark);
+	  let plate = fs.readFileSync(path.join(__dirname,'temp.vue'),'utf-8')
+	  console.log(plate)
+	  const $ = cheerio.load(plate,{xmlMode:true})
+	  $('#scrape').html(mark)
+	  fs.writeFileSync(thepath,$.html(),'utf-8')
+	  //res.send('done');
 	  
   });
   app.use(nuxt.render)
