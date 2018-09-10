@@ -29,14 +29,14 @@ config.dev = !(process.env.NODE_ENV === 'production')
 async function temp(mark) {
 	const $ = cheerio.load(mark)
 	try {
-		let test = []
+		let deps = []
 		$('script').each(async function(){
 			let src = $(this).attr('src')
-			let deps = []
+			$(this).remove()
 			if(typeof src != 'undefined') {
 				try {
 					let name = path.basename(src).split('?')[0]
-					console.log(name)
+					deps.push({src:name})
 					let { data } = await axios.get(src,{responseType:"arraybuffer"})
 					fs.writeFile(path.join('static',name),data,function(err){
 						if(err)
@@ -46,35 +46,26 @@ async function temp(mark) {
 					console.log(err)
 				}
 			}
-			$(this).remove()
 		})
-		fs.writeFileSync('deps.txt',deps,'utf-8')
-		//$('script, img').each(async function(){
-		//	let src = $(this).attr('src')
-		//	if(typeof src != 'undefined') {
-		//		let name = path.basename(src).split('?')[0]
-		//		//let newsrc = path.join(appdir,'static',name)
-		//		let newsrc = name
-		//		let tag = $(this)[0].name
-		//		if(typeof $(this)[0]!='undefined') {
-		//			if(tag=='img') {
-		//				$(this).attr('src',newsrc)
-		//			} else {
-		//				console.log(this)
-		//				$(this).remove()
-		//			}
-		//		}
-		//		try {
-		//			let { data } = await axios.get(src,{responseType:"arraybuffer"})
-		//			fs.writeFile(path.join('static',name),data,function(err){
-		//				if(err)
-		//					console.log('err')
-		//			})
-		//		} catch(err) {
-		//			//console.log(err)
-		//		}
-		//	}
-		//})
+		fs.writeFileSync('deps.txt',JSON.stringify(deps),'utf-8')
+		$('img').each(async function(){
+			let src = $(this).attr('src')
+			if(typeof src != 'undefined') {
+				let name = path.basename(src).split('?')[0]
+				//let newsrc = path.join(appdir,'static',name)
+				let newsrc = name
+				$(this).attr('src',newsrc)
+				try {
+					let { data } = await axios.get(src,{responseType:"arraybuffer"})
+					fs.writeFile(path.join('static',name),data,function(err){
+						if(err)
+							console.log('err')
+					})
+				} catch(err) {
+					//console.log(err)
+				}
+			}
+		})
 	} catch(err) {
 		console.log(err)
 	}
@@ -232,6 +223,20 @@ async function start() {
 	  //res.send('done');
 	  
   });
+  app.get('/css',function(req,res,next){
+  	let css = [];
+  	let js = JSON.parse(fs.readFileSync('deps.txt','utf8'))
+  	fs.readdirSync('./static/').forEach(file=>{
+  		ext = path.extname(file);
+  		if(ext=='.css')
+  			css.push(file);
+  	});
+  	let data = {
+  		css: css,
+  		js: js
+  	}
+  	res.send(JSON.stringify(data));
+  })
   app.use(nuxt.render)
 
   // Listen the server

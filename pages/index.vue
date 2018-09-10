@@ -30,7 +30,7 @@
 
 		<div id="topmenu" class="container">
 			<a id="logo" href="https://food.berkeley.edu" class="">
-	        <img alt="Berkeley Food Institute UC Berkeley" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/images/BFI_with_UC.png"/>
+	        <img alt="Berkeley Food Institute UC Berkeley" src="BFI_with_UC.png"/>
 	        </a>
 
 			<div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-6318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6318"><a href="https://food.berkeley.edu/resources/just-food-podcast/">Podcast</a></li>
@@ -247,7 +247,7 @@
             </main>
             <footer>
 
-    <img class="bcallout" alt="B Engaged!" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/images/B-engaged.png"/>
+    <img class="bcallout" alt="B Engaged!" src="B-engaged.png"/>
     <div id="newsletter" class="row newsletter" style="background-image:linear-gradient(to top,rgba(25,119,169,0.7),rgba(25,119,169,0.7)),url(https://food.berkeley.edu/wp-content/uploads/2018/06/newsletterbg-2.jpg);">
 
         <div class="container">
@@ -283,7 +283,7 @@
 							</li></ul></div></li><li id="field_5_8" class="gfield field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label">UC Berkeley Foodscape Map</label><div class="ginput_container ginput_container_checkbox"><ul class="gfield_checkbox" id="input_5_8"><li class="gchoice_5_8_1">
 								<input name="input_8.1" type="checkbox" value="UC Berkeley Foodscape Map" id="choice_5_8_1"/>
 								<label for="choice_5_8_1" id="label_5_8_1">UC Berkeley Foodscape Map</label>
-							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Email</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
+							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Phone</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
                             </ul></div>
         <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_5" class="gform_button button" value="Sign Up" onclick="if(window[&quot;gf_submitting_5&quot;]){return false;}  window[&quot;gf_submitting_5&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_5&quot;]){return false;} window[&quot;gf_submitting_5&quot;]=true;  jQuery(&quot;#gform_5&quot;).trigger(&quot;submit&quot;,[true]); }"/><!-- Begin Daddy Analytics fields --><input type="hidden" name="" value=""/><input type="hidden" name="" value=""/><!-- End Daddy Analytics fields --> <input type="hidden" name="gform_ajax" value="form_id=5&amp;title=1&amp;description=&amp;tabindex=1"/>
             <input type="hidden" class="gform_hidden" name="is_submit_5" value="1"/>
@@ -312,7 +312,7 @@
         <table>
         <tbody><tr>
         <td>
-        <a class="logo" href="https://food.berkeley.edu"><img alt="Berkeley Food Institute Logo" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/images/BFI_without_UC.png"/></a>
+        <a class="logo" href="https://food.berkeley.edu"><img alt="Berkeley Food Institute Logo" src="BFI_without_UC.png"/></a>
         </td>
 
         <td>
@@ -368,7 +368,7 @@ Berkeley, California, 94720-3100</p>
 
     <div class="container copyright">
 
-        <div class="col-xs-12 col-lg-4"><a href="http://www.berkeley.edu/" target="_blank" class="berkeleylogo"><img alt="UC Berkeley Logo" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/images/UCBerkeley_wordmark_blue.png"/></a></div>
+        <div class="col-xs-12 col-lg-4"><a href="http://www.berkeley.edu/" target="_blank" class="berkeleylogo"><img alt="UC Berkeley Logo" src="UCBerkeley_wordmark_blue.png"/></a></div>
 
         <div class="col-xs-12 col-lg-8">&#xA9; 2018 The Regents of the University of California. All Rights Reserved. Website by <a href="http://www.computercourage.com" target="_blank">Computer Courage</a>.</div>
 
@@ -415,28 +415,56 @@ interests by providing more information below:</h4>
                         </form>
                         </div>
                 <iframe style="display:none;width:0px;height:0px;" src="about:blank" name="gform_ajax_frame_13" id="gform_ajax_frame_13">This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
-                			<img id="closer" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/images/close.svg"/>
+                			<img id="closer" src="close.svg"/>
 			</div>
 		</div>
 		<link rel="stylesheet" id="fwpcl-front-css" href="https://food.berkeley.edu/wp-content/plugins/facetwp-conditional-logic/assets/css/front.css?ver=1.2.3" type="text/css" media="all"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/iso/isotope.pkgd.min.js"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/iso/imagesloaded.pkgd.min.js"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/iso/fit-columns.js"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/iso/packery-mode.pkgd.min.js"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/iso/infinite-scroll.pkgd.min.js"/>
 
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/cc-script-dist.js"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/themes/ccprototypev5/js/land.js"/>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.7.2/jquery.smooth-scroll.min.js?ver=4.9.8"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.0.0-beta.1"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-includes/js/wp-embed.min.js?ver=4.9.8"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.3.3"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.3.3"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.3.3"/>
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.3.3"/>
 
-<script type="text/javascript" src="https://food.berkeley.edu/wp-content/plugins/facetwp-conditional-logic/assets/js/front.js?ver=1.2.3"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 </body></div>
 </template>
+<script>
+let axios = require('axios')
+export default {
+	async fetch(context) {
+		let sets = await axios.get('http://localhost:3000/css');
+		sets = sets.data;
+		context.store.commit('loadStyles',sets.css)
+		context.store.commit('loadScripts',sets.js)
+	},
+	head() {
+		let styles = this.$store.state.styles;
+		let scripts = this.$store.state.scripts;
+		let links = [];
+		styles.forEach(style=>{
+			var sheet = {
+				rel: 'stylesheet',
+				href: style
+			}
+			links.push(sheet);
+		});
+		console.log(links);
+		return {
+			script: scripts,
+			link: links
+		}
+	}
+}
+</script>
