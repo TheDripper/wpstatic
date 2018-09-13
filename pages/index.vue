@@ -194,11 +194,6 @@
 <ul class="media-list">
 <li class="media">
 	<div class="media-left">
-	<div class="date"><span class="month">Sep</span><span class="day">12</span></div>
-</div>
-<div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=118880&amp;date=2018-09-1.html">Sustainability Involvement Expo</a></h3></div></li>
-<li class="media">
-	<div class="media-left">
 	<div class="date"><span class="month">Sep</span><span class="day">13</span></div>
 </div>
 <div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=119633&amp;date=2018-09-1.html">[Peterson Speaker Series] Inspiring Tomorrow&apos;s Business Leaders: Clif Bar Co-owners Gary Erickson and Kit Crawford</a></h3></div></li>
@@ -207,6 +202,11 @@
 	<div class="date"><span class="month">Sep</span><span class="day">20</span></div>
 </div>
 <div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=118882&amp;date=2018-09-2.html">Seeds of Resistance: The Fight to Save Our Food Supply</a></h3></div></li>
+<li class="media">
+	<div class="media-left">
+	<div class="date"><span class="month">Oct</span><span class="day">20</span></div>
+</div>
+<div class="media-body"><h3><a href="/index.php/calendar/sn/bfi.html?event_ID=119535&amp;date=2018-10-2.html">Members&apos; Walk: Crops of the World</a></h3></div></li>
 </ul><div class="more-link"><a href="/index.php/calendar/sn/bfi.htm.html">More events</a></div></div></div>		</div>
 
 		</div>
@@ -283,7 +283,7 @@
 							</li></ul></div></li><li id="field_5_8" class="gfield field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label">UC Berkeley Foodscape Map</label><div class="ginput_container ginput_container_checkbox"><ul class="gfield_checkbox" id="input_5_8"><li class="gchoice_5_8_1">
 								<input name="input_8.1" type="checkbox" value="UC Berkeley Foodscape Map" id="choice_5_8_1"/>
 								<label for="choice_5_8_1" id="label_5_8_1">UC Berkeley Foodscape Map</label>
-							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Comments</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
+							</li></ul></div></li></div><li id="field_5_9" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible"><label class="gfield_label" for="input_5_9">Phone</label><div class="ginput_container"><input name="input_9" id="input_5_9" type="text" value=""/></div><div class="gfield_description">This field is for validation purposes and should be left unchanged.</div></li>
                             </ul></div>
         <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_5" class="gform_button button" value="Sign Up" onclick="if(window[&quot;gf_submitting_5&quot;]){return false;}  window[&quot;gf_submitting_5&quot;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_5&quot;]){return false;} window[&quot;gf_submitting_5&quot;]=true;  jQuery(&quot;#gform_5&quot;).trigger(&quot;submit&quot;,[true]); }"/><!-- Begin Daddy Analytics fields --><input type="hidden" name="" value=""/><input type="hidden" name="" value=""/><!-- End Daddy Analytics fields --> <input type="hidden" name="gform_ajax" value="form_id=5&amp;title=1&amp;description=&amp;tabindex=1"/>
             <input type="hidden" class="gform_hidden" name="is_submit_5" value="1"/>

@@ -5,7 +5,7 @@ const host = process.env.HOST || '127.0.0.1'
 const port = process.env.PORT || 3000
 const bodyParser = require('body-parser');
 const axios = require('axios');
-const fs = require('fs');
+const fs = require('mz/fs');
 const path = require('path');
 const urls = require('get-urls');
 const strip = require('striptags');
@@ -43,11 +43,10 @@ async function temp(mark) {
 							console.log('err')
 					})
 				} catch(err) {
-					console.log(err)
+					//console.log(err)
 				}
 			}
 		})
-		fs.writeFileSync('deps.txt',JSON.stringify(deps),'utf-8')
 		$('img').each(async function(){
 			let src = $(this).attr('src')
 			if(typeof src != 'undefined') {
@@ -62,7 +61,7 @@ async function temp(mark) {
 							console.log('err')
 					})
 				} catch(err) {
-					//console.log(err)
+					console.log(err)
 				}
 			}
 		})
@@ -72,12 +71,16 @@ async function temp(mark) {
 			//let newhref = path.join(appdir,'static',base)
 			let newhref = base
 			$(this).attr('href',newhref)
-			if(path.parse(href).ext=='.css') {
-				let { data } = await axios.get(href)
-				fs.writeFile(path.join('static',base),data,function(err){
-					if(err)
-						console.log('err')
-				})
+			if(path.parse(href).ext=='.css' && href.includes('http')) {
+				try {
+					let { data } = await axios.get(href)
+					fs.writeFile(path.join('static',base),data,function(err){
+						if(err)
+							console.log('err')
+					})
+				} catch(err) {
+					console.log(err)
+				}
 			}
 		})
 		$('[style*="background"]').each(async function(){
@@ -85,14 +88,15 @@ async function temp(mark) {
 			//let url = $(this).attr('style').match(reg)[1].slice(1,-2)
 			let url = Array.from(urls($(this).attr('style')))[0]
 			url = nospec(url)
-			console.log(url)
 			let name = path.basename(url)
 			//let newsrc = path.join(appdir,'static',name)
 			let newsrc = name
 			let regurl = new RegExp(url)
 			let style = $(this).attr('style')
-			let newstyle = style.replace(regurl,newsrc)
-			$(this).attr('style',newstyle)
+			if(style!=null) {
+				let newstyle = style.replace(regurl,newsrc)
+				$(this).attr('style',newstyle)
+			}
 			try {
 				let { data } = await axios.get(url,{responseType:"arraybuffer"})
 				fs.writeFile(path.join('static',name),data,'binary',function(err){
@@ -100,7 +104,7 @@ async function temp(mark) {
 						console.log('err')
 				})
 			} catch(err) {
-				//console.log(err)
+				console.log(err)
 			}
 		})
 		$('a').each(function(){
@@ -121,89 +125,6 @@ async function temp(mark) {
 
 }
 
-async function press(mark) {
-	try {
-		console.log('fetching asset srcs...')
-		//let appdir = path.resolve(__dirname,'..')
-		let appdir = '/'
-		console.log(appdir)
-		let statdir = path.join(appdir,'static')
-		let mime = ['.png','.jpg','.gif','.svg','.css','.js']
-		let clean = []
-		let markary = []
-		const $ = cheerio.load(mark)
-		$('a').each(function(){
-			let href = $(this).attr('href')
-			let newpath = parseurl.parse(href).path
-			if(newpath!==null) {
-				if(newpath.length==1)
-					newpath = 'index/'
-				//newpath = path.join(appdir,'scrapes',newpath).slice(0,-1)+'.html'
-				newpath = newpath.slice(0,-1)+'.html'
-				$(this).attr('href',newpath)
-			}
-		})
-		$('script, img').each(async function(){
-			let src = $(this).attr('src')
-			if(typeof src != 'undefined') {
-				let name = path.basename(src).split('?')[0]
-				//let newsrc = path.join(appdir,'static',name)
-				let newsrc = name
-				$(this).attr('src',newsrc)
-				try {
-					let { data } = await axios.get(src,{responseType:"arraybuffer"})
-					fs.writeFile(path.join('static',name),data,function(err){
-						if(err)
-							console.log('err')
-					})
-				} catch(err) {
-					//console.log(err)
-				}
-			}
-		})
-		$('link').each(async function(){
-			let href = $(this).attr('href').split('?')[0]
-			let base = path.basename(href)
-			//let newhref = path.join(appdir,'static',base)
-			let newhref = base
-			$(this).attr('href',newhref)
-			if(path.parse(href).ext=='.css') {
-				let { data } = await axios.get(href)
-				fs.writeFile(path.join('static',base),data,function(err){
-					if(err)
-						console.log('err')
-				})
-			}
-		})
-		$('[style*="background"]').each(async function(){
-			//var reg = new RegExp("url("+"(.*)"+")")
-			//let url = $(this).attr('style').match(reg)[1].slice(1,-2)
-			let url = Array.from(urls($(this).attr('style')))[0]
-			url = nospec(url)
-			console.log(url)
-			let name = path.basename(url)
-			//let newsrc = path.join(appdir,'static',name)
-			let newsrc = name
-			let regurl = new RegExp(url)
-			let style = $(this).attr('style')
-			let newstyle = style.replace(regurl,newsrc)
-			$(this).attr('style',newstyle)
-			try {
-				let { data } = await axios.get(url,{responseType:"arraybuffer"})
-				fs.writeFile(path.join('static',name),data,'binary',function(err){
-					if(err)
-						console.log('err')
-				})
-			} catch(err) {
-				//console.log(err)
-			}
-		})
-		return $.html()
-	  } catch(err) {
-	  	console.log('server');
-	  	console.log(err);
-	  }
-}
 
 function crawl(page) {
 		let done = []
@@ -252,29 +173,29 @@ async function start() {
 	  if(base=='/')
 		  base='index'
 	  let { data } = await axios.get(page)
-	  //let mark = await press(data)
 	  let mark = await temp(data)
 	  console.log('write:' + base)
-	  //let dirs = parsed.path.slice(1,-1)
-	  //base = dirs.pop()
-	  //console.log(dirs)
-	  //.replace(/\//g,'-')
 	  let dir = path.parse(thepath).dir
-	  if(!fs.existsSync(dir))
-		  fs.mkdirSync(dir)
-	  //fs.writeFileSync(thepath,mark);
-	  let plate = fs.readFileSync(path.join(__dirname,'temp.vue'),'utf-8')
-	  console.log(plate)
-	  const $ = cheerio.load(plate,{xmlMode:true})
-	  $('#scrape').html(mark)
-	  fs.writeFileSync(thepath,$.html(),'utf-8')
-	  //res.send('done');
-	  
-  });
-  app.get('/css',function(req,res,next){
+	  try {
+	  	let plate = await fs.readFile(path.join(__dirname,'temp.vue'),'utf-8')
+	  	console.log(plate)
+	  	const $ = cheerio.load(plate,{xmlMode:true})
+	  	$('#scrape').html(mark)
+	  	fs.writeFile(thepath,$.html(),'utf-8',err=>{
+	  	        if(err) {
+	  	      	  fs.mkdir(dir,err=>{
+	  	      		  console.log(err)
+	  	      	  })
+	  	        }
+	  	})
+	  } catch(err) {
+		console.log(err)
+	  }
+  })
+  app.get('/css',async function(req,res,next){
   	let css = [];
-  	let js = JSON.parse(fs.readFileSync('deps.txt','utf8'))
-  	fs.readdirSync('./static/').forEach(file=>{
+  	let js = JSON.parse(await lfs.readFile('deps.txt','utf8'))
+  	await fs.readdir('./static/').forEach(file=>{
   		ext = path.extname(file);
   		if(ext=='.css')
   			css.push(file);

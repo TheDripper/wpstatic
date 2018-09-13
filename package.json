@@ -15,8 +15,11 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.3",
     "get-urls": "^7.2.0",
+    "mz": "^2.7.0",
+    "node-sass": "^4.9.3",
     "nuxt": "^1.0.0",
     "sanitize-filename": "^1.6.1",
+    "sass-loader": "^7.1.0",
     "striptags": "^3.1.1"
   },
   "devDependencies": {
